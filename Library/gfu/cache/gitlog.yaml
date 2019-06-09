@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2019-06-09T12:15:16.101+10:00
+  initializedAtString: 2019-06-09T11:59:40.483+10:00
+  log:
+  - commitID: 60bb76c3876083274dce8a9e986646e84a6eeb4c
+    mergeA: 
+    mergeB: 
+    authorName: RadiantInferno
+    authorEmail: toddthecreeper@gmail.com
+    commitEmail: toddthecreeper@gmail.com
+    commitName: RadiantInferno
+    summary: Basic start to game
+    description: First time setting up github
+    timeString: 2019-06-09T11:19:48.000+10:00
+    commitTimeString: 2019-06-09T11:19:48.000+10:00
+    changes:
+    - path: .collabignore
+      fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\.collabignore
+      projectPath: .collabignore
+      originalPath: 
+      status: 4
+      staged: 0
