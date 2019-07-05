@@ -5,11 +5,18 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float speed;
+    //The min and max x and y values that the player is able to move
+    private float playerMinX = -8.7f;
+    private float playerMaxX = 8.7f;
+    private float playerMinY = -4.8f;
+    private float playerMaxY = 4.8f;
 
+    //Variable to store the position of the mouse converted to world space
     private Vector3 mousePosition;
 
     private Rigidbody2D rb;
     private LineRenderer lr;
+    //The direction in which the player is moving
     private Vector2 moveVelocity;
 
     // Start is called before the first frame update
@@ -44,17 +51,19 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         //Moves the player
-        rb.MovePosition(rb.position + moveVelocity * Time.fixedDeltaTime);
+        rb.MovePosition(new Vector2(Mathf.Clamp(rb.position.x + moveVelocity.x, playerMinX, playerMaxX), Mathf.Clamp(rb.position.y + moveVelocity.y, playerMinY, playerMaxY)));
 
         //Makes the player point towards the mouse cursor
         mousePosition = Input.mousePosition;
         mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
 
+        //finds the position of the player relative to the mouse
         Vector2 mouseDirection = new Vector2(
             mousePosition.x - transform.position.x,
             mousePosition.y - transform.position.y
         );
 
+        //rotates the player to face mouse
         transform.up = mouseDirection;
     }
 }
