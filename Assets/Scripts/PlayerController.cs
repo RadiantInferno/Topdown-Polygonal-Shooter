@@ -19,11 +19,22 @@ public class PlayerController : MonoBehaviour
     //The direction in which the player is moving
     private Vector2 moveVelocity;
 
+    public int maxHealth;
+    public int currentHealth;
+
+    private float invincibilityCounter;
+    private float invincibilityLength;
+    public float knockbackLength;
+    public float knockbackForce;
+    private float knockbackCounter;
+    public bool invincible;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         lr = GetComponent<LineRenderer>();
+        currentHealth = maxHealth;
     }
 
     // Update is called once per frame
@@ -46,6 +57,11 @@ public class PlayerController : MonoBehaviour
         {
             lr.enabled = false;
         }
+
+        if(currentHealth <= 0f)
+        {
+            //make sure to put the 'death sequence' name in here to run the graphics and everything else
+        }
     }
 
     void FixedUpdate()
@@ -65,5 +81,53 @@ public class PlayerController : MonoBehaviour
 
         //rotates the player to face mouse
         transform.up = mouseDirection;
+
+        if (invincibilityCounter > 0)
+        {
+            invincibilityCounter--;
+        }
+
+        if (knockbackCounter <= 0)
+        {
+            //all movement of player stays the same
+        }
     }
+
+    //Player collision
+    //makes it so if the enemy hits the player then the player loses health and jumps back from where it's been hit
+    //also makes the player 'invincible' for a little bit after being hit so you don't just lose all your lives in one smash of enemies
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Enemy")
+        {
+            //knockback;
+
+            if(invincibilityCounter == 0)
+            {
+                currentHealth -= 1;
+                invincibilityCounter = 60;
+            }
+            
+        }
+        else
+        {
+            
+        }
+
+        //makes it so if the enemy's bullet hits the player they lose health
+        if (other.gameObject.tag == "EnemyBullet")
+        {
+            currentHealth -= 1;
+        }
+    }
+
+    public void Knockback()
+    {
+        knockbackCounter = knockbackLength;
+        invincibilityCounter = invincibilityLength;
+        invincible = true;
+    }
+
+
+    //Player firing - to do
 }

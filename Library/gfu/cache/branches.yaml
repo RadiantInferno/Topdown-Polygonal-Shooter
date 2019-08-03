@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-06-09T12:21:56.163+10:00
-  initializedAtString: 2019-06-09T12:21:56.150+10:00
+  lastUpdatedAtString: 2019-08-03T16:39:51.078+10:00
+  initializedAtString: 2019-08-03T16:39:49.943+10:00
   localBranches:
   - name: master
     tracking: origin/master
   remoteBranches:
-  - name: origin/master
+  - name: origin/HEAD
     tracking: '[None]'
   remotes:
   - name: origin
@@ -43,10 +43,10 @@ MonoBehaviour:
     - origin
     subKeys:
     - Values:
-      - master
+      - HEAD
     subKeyValues:
     - Values:
-      - name: master
+      - name: HEAD
         remote:
           name: origin
           url: https://github.com/RadiantInferno/Topdown-Polygonal-Shooter.git
