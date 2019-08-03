@@ -23,7 +23,6 @@ public class PlayerController : MonoBehaviour
     public int currentHealth;
 
     private float invincibilityCounter;
-    private float invincibilityLength;
     public float knockbackLength;
     public float knockbackForce;
     private float knockbackCounter;
@@ -66,30 +65,33 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        //Moves the player
-        rb.MovePosition(new Vector2(Mathf.Clamp(rb.position.x + moveVelocity.x, playerMinX, playerMaxX), Mathf.Clamp(rb.position.y + moveVelocity.y, playerMinY, playerMaxY)));
+        if (knockbackCounter <= 0)
+        {//Moves the player
+            rb.MovePosition(new Vector2(Mathf.Clamp(rb.position.x + moveVelocity.x, playerMinX, playerMaxX), Mathf.Clamp(rb.position.y + moveVelocity.y, playerMinY, playerMaxY)));
 
-        //Makes the player point towards the mouse cursor
-        mousePosition = Input.mousePosition;
-        mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
+            //Makes the player point towards the mouse cursor
+            mousePosition = Input.mousePosition;
+            mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
 
-        //finds the position of the player relative to the mouse
-        Vector2 mouseDirection = new Vector2(
-            mousePosition.x - transform.position.x,
-            mousePosition.y - transform.position.y
-        );
+            //finds the position of the player relative to the mouse
+            Vector2 mouseDirection = new Vector2(
+                mousePosition.x - transform.position.x,
+                mousePosition.y - transform.position.y
+            );
 
-        //rotates the player to face mouse
-        transform.up = mouseDirection;
+            //rotates the player to face mouse
+            transform.up = mouseDirection;
 
-        if (invincibilityCounter > 0)
-        {
-            invincibilityCounter--;
+            if (invincibilityCounter > 0)
+            {
+                invincibilityCounter--;
+            }
+
         }
 
-        if (knockbackCounter <= 0)
+        if (knockbackCounter > 0)
         {
-            //all movement of player stays the same
+            knockbackCounter -= Time.deltaTime;
         }
     }
 
@@ -124,7 +126,6 @@ public class PlayerController : MonoBehaviour
     public void Knockback()
     {
         knockbackCounter = knockbackLength;
-        invincibilityCounter = invincibilityLength;
         invincible = true;
     }
 
