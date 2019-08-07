@@ -13,9 +13,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-08-07T14:49:36.700+10:00
-  initializedAtString: 2019-08-07T13:18:31.651+10:00
+  lastUpdatedAtString: 2019-08-07T16:06:58.261+10:00
+  initializedAtString: 2019-08-07T15:13:21.457+10:00
   entries:
+  - path: .vs\Topdown-Polygonal-Shooter\v15\.suo
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\.vs\Topdown-Polygonal-Shooter\v15\.suo
+    projectPath: .vs\Topdown-Polygonal-Shooter\v15\.suo
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: .vs\Topdown-Polygonal-Shooter\v15\Server\sqlite3\storage.ide
     fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\.vs\Topdown-Polygonal-Shooter\v15\Server\sqlite3\storage.ide
     projectPath: .vs\Topdown-Polygonal-Shooter\v15\Server\sqlite3\storage.ide
@@ -55,6 +61,12 @@ MonoBehaviour:
   - path: Library\Collab\CollabSnapshot_3ddd2522-2843-4e6e-9dc0-166f7fc399e9.txt
     fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\Collab\CollabSnapshot_3ddd2522-2843-4e6e-9dc0-166f7fc399e9.txt
     projectPath: Library\Collab\CollabSnapshot_3ddd2522-2843-4e6e-9dc0-166f7fc399e9.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\CurrentLayout.dwlt
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\CurrentLayout.dwlt
+    projectPath: Library\CurrentLayout.dwlt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -118,6 +130,108 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Timeline.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.Timeline.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.ugui.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.ugui.dll
+    projectPath: Library\ScriptAssemblies\Unity.ugui.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.ugui.Editor.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.ugui.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.ugui.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\StateCache\Hierarchy\42911b-mainStage.json
     fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\StateCache\Hierarchy\42911b-mainStage.json
     projectPath: Library\StateCache\Hierarchy\42911b-mainStage.json
@@ -136,27 +250,147 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-28abf8d33b610e441b50861e8323c752
-    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-28abf8d33b610e441b50861e8323c752
-    projectPath: Temp\UnityTempFile-28abf8d33b610e441b50861e8323c752
+  - path: Temp\UnityTempFile-06cf7126628c3624b844207576882401
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-06cf7126628c3624b844207576882401
+    projectPath: Temp\UnityTempFile-06cf7126628c3624b844207576882401
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-40ca71dea8bde69409913f8e83dc13a6
-    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-40ca71dea8bde69409913f8e83dc13a6
-    projectPath: Temp\UnityTempFile-40ca71dea8bde69409913f8e83dc13a6
+  - path: Temp\UnityTempFile-0d55fca0d3c4ebd4a9ed5a9c6c0ed993
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-0d55fca0d3c4ebd4a9ed5a9c6c0ed993
+    projectPath: Temp\UnityTempFile-0d55fca0d3c4ebd4a9ed5a9c6c0ed993
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-ba714524d34dd81438419e4e777fcf00
-    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-ba714524d34dd81438419e4e777fcf00
-    projectPath: Temp\UnityTempFile-ba714524d34dd81438419e4e777fcf00
+  - path: Temp\UnityTempFile-1ea79b62dca4cda4a863bdcd0a55dbb5
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-1ea79b62dca4cda4a863bdcd0a55dbb5
+    projectPath: Temp\UnityTempFile-1ea79b62dca4cda4a863bdcd0a55dbb5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-e5375f37012988d4bb12a48747538926
-    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-e5375f37012988d4bb12a48747538926
-    projectPath: Temp\UnityTempFile-e5375f37012988d4bb12a48747538926
+  - path: Temp\UnityTempFile-304a1b0e3883fd449a15abc8fbe7935f
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-304a1b0e3883fd449a15abc8fbe7935f
+    projectPath: Temp\UnityTempFile-304a1b0e3883fd449a15abc8fbe7935f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-40c59df6f0906e2488715a610a2c3e5c
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-40c59df6f0906e2488715a610a2c3e5c
+    projectPath: Temp\UnityTempFile-40c59df6f0906e2488715a610a2c3e5c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-48203528d27dff0408addc464e671a3c
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-48203528d27dff0408addc464e671a3c
+    projectPath: Temp\UnityTempFile-48203528d27dff0408addc464e671a3c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-502c8c2cd1ef58843afcd9b6be9e2498
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-502c8c2cd1ef58843afcd9b6be9e2498
+    projectPath: Temp\UnityTempFile-502c8c2cd1ef58843afcd9b6be9e2498
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-51436c6377b5e0244a544979447830d2
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-51436c6377b5e0244a544979447830d2
+    projectPath: Temp\UnityTempFile-51436c6377b5e0244a544979447830d2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-5acc9b38a4a5a99459c853db13a4f64a
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-5acc9b38a4a5a99459c853db13a4f64a
+    projectPath: Temp\UnityTempFile-5acc9b38a4a5a99459c853db13a4f64a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-67493dd8fc811b44f8c23e34f0b1982a
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-67493dd8fc811b44f8c23e34f0b1982a
+    projectPath: Temp\UnityTempFile-67493dd8fc811b44f8c23e34f0b1982a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-74764355f5afb5644927f26ad84ed58f
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-74764355f5afb5644927f26ad84ed58f
+    projectPath: Temp\UnityTempFile-74764355f5afb5644927f26ad84ed58f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-7edb39f4bb403da4686e5db03eef85ee
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-7edb39f4bb403da4686e5db03eef85ee
+    projectPath: Temp\UnityTempFile-7edb39f4bb403da4686e5db03eef85ee
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-8e96dd61092fbef45840fba790eb8d76
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-8e96dd61092fbef45840fba790eb8d76
+    projectPath: Temp\UnityTempFile-8e96dd61092fbef45840fba790eb8d76
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-903314b054481414789bd09d099e8be3
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-903314b054481414789bd09d099e8be3
+    projectPath: Temp\UnityTempFile-903314b054481414789bd09d099e8be3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-91d411e2f1989cd4887b8e3897ec6de5
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-91d411e2f1989cd4887b8e3897ec6de5
+    projectPath: Temp\UnityTempFile-91d411e2f1989cd4887b8e3897ec6de5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-9d35c9c46b3ab5e4dbfac3118b1f7eeb
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-9d35c9c46b3ab5e4dbfac3118b1f7eeb
+    projectPath: Temp\UnityTempFile-9d35c9c46b3ab5e4dbfac3118b1f7eeb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a5c85f8e6005bb344bd45de56b59f85a
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-a5c85f8e6005bb344bd45de56b59f85a
+    projectPath: Temp\UnityTempFile-a5c85f8e6005bb344bd45de56b59f85a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-b5140bec7872d2b47b0e096abcda032c
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-b5140bec7872d2b47b0e096abcda032c
+    projectPath: Temp\UnityTempFile-b5140bec7872d2b47b0e096abcda032c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-b697bb3ea97a5d34cbb5b6af1fbda004
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-b697bb3ea97a5d34cbb5b6af1fbda004
+    projectPath: Temp\UnityTempFile-b697bb3ea97a5d34cbb5b6af1fbda004
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e48eca29ebf562d42b1fefafee6af6f5
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-e48eca29ebf562d42b1fefafee6af6f5
+    projectPath: Temp\UnityTempFile-e48eca29ebf562d42b1fefafee6af6f5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e50efa63297935d4988df23408cd5c8b
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-e50efa63297935d4988df23408cd5c8b
+    projectPath: Temp\UnityTempFile-e50efa63297935d4988df23408cd5c8b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e5547b3f767fb394dba7c4ee1d6ad53d
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-e5547b3f767fb394dba7c4ee1d6ad53d
+    projectPath: Temp\UnityTempFile-e5547b3f767fb394dba7c4ee1d6ad53d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e822076e7a8a12441a66488fe38d8d0e
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-e822076e7a8a12441a66488fe38d8d0e
+    projectPath: Temp\UnityTempFile-e822076e7a8a12441a66488fe38d8d0e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f110b9076e82d904c9dba7c4f832549b
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-f110b9076e82d904c9dba7c4f832549b
+    projectPath: Temp\UnityTempFile-f110b9076e82d904c9dba7c4f832549b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

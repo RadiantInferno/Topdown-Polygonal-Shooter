@@ -27,8 +27,10 @@ public class PlayerController : MonoBehaviour
     private float invincibilityCounter;
     public bool invincible;
     //Used for knockback force and for how long
-    public float force;
-    public float knockTime;
+    public float enemyForce;
+    public float enemyknockTime;
+    public float playerForce;
+    public float playerknockTime;
 
     // Start is called before the first frame update
     void Start()
@@ -110,14 +112,15 @@ public class PlayerController : MonoBehaviour
                 //Makes it so we can use the force of the object as you can't do that in dynamic mode
                 enemy.isKinematic = false;
                 //Finds the difference between the player and the enemies positions
-                Vector2 difference = enemy.transform.position - transform.position;
+                Vector2 enemyDifference = enemy.transform.position - transform.position;
                 //Finds the average of the 'difference' and multiplies it with the public force
                 //Normalized make the vector a vector of 1
-                difference = difference.normalized * force;
+                enemyDifference = enemyDifference.normalized * enemyForce;
                 //Adds the amount of force to the enemy for it to use to bounce off
-                enemy.AddForce(difference, ForceMode2D.Impulse);
+                enemy.AddForce(enemyDifference, ForceMode2D.Impulse);
                 //Starts the Coroutine that will make the enemy stop moving backwards - otherwise they'd just keep going off the screen
-                StartCoroutine(KnockbackCo(enemy));
+                StartCoroutine(KnockbackEnemyCo(enemy));
+
             }
 
             //Makes it so the player goes invincible for a little bit if hit by enemy
@@ -136,6 +139,18 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    //Player won't keep moving backwards
+    //Turns Kinematic mode of player back on so it doesn't screw with the rest of our program
+    private IEnumerator KnockbackEnemyCo(Rigidbody2D enemy)
+    {
+        if (enemy != null)
+        {
+            yield return new WaitForSeconds(enemyknockTime);
+            enemy.velocity = Vector2.zero;
+            enemy.isKinematic = true;
+        }
+    }
+
 
     //Player firing - to do
     //private void Firing()
@@ -146,15 +161,35 @@ public class PlayerController : MonoBehaviour
     //}
     //}
 
-    //Player won't keep moving backwards
-    //Turns Kinematic mode of player back on so it doesn't screw with the rest of our program
-    private IEnumerator KnockbackCo(Rigidbody2D enemy)
-    {
-        if (enemy != null)
-        {
-            yield return new WaitForSeconds(knockTime);
-            enemy.velocity = Vector2.zero;
-            enemy.isKinematic = true;
-        }
-    }
+
+
+
+
+    //Below is the code needed to get the player to bounce off of the enemy, however this has to be put into the enemy code, not the players
+
+    // void OnTriggerEnter2D(Collider2D other)
+    // {
+    //   if (other.gameObject.tag == "Enemy")
+    // {
+    //   Rigidbody2D Player = other.GetComponent<Rigidbody2D>();
+    // if (Player != null)
+    //{
+    //  Player.isKinematic = false;
+    //Vector2 playerDifference = transform.position - enemy.transform.position;
+    //playerDifference = playerDifference.normalized * playerForce;
+    //Player.AddForce(playerDifference, ForceMode2D.Impulse);
+    //StartCoroutine(KnockbackPlayerCo(Player));
+    //}
+    //}
+    //}
+
+    //private IEnumerator KnockbackPlayerCo(Rigidbody2D Player)
+    //{
+    //  if (Player != null)
+    //{
+    //  yield return new WaitForSeconds(playerknockTime);
+    //Player.velocity = Vector2.zero;
+    //Player.isKinematic = true;
+    //}
+    //}
 }

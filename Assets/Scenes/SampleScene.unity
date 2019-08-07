@@ -349,8 +349,10 @@ MonoBehaviour:
   maxHealth: 5
   currentHealth: 0
   invincible: 0
-  force: 4
-  knockTime: 0.2
+  enemyForce: 5
+  enemyknockTime: 0.4
+  playerForce: -5
+  playerknockTime: 0.5
 --- !u!50 &1429899582
 Rigidbody2D:
   serializedVersion: 4
