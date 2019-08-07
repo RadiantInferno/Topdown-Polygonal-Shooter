@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-08-03T17:28:23.782+10:00
-  initializedAtString: 2019-08-03T17:16:27.061+10:00
+  lastUpdatedAtString: 2019-08-07T14:49:36.700+10:00
+  initializedAtString: 2019-08-07T13:18:31.651+10:00
   entries:
   - path: .vs\Topdown-Polygonal-Shooter\v15\Server\sqlite3\storage.ide
     fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\.vs\Topdown-Polygonal-Shooter\v15\Server\sqlite3\storage.ide
@@ -31,6 +31,12 @@ MonoBehaviour:
   - path: .vs\Topdown-Polygonal-Shooter\v15\Server\sqlite3\storage.ide-wal
     fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\.vs\Topdown-Polygonal-Shooter\v15\Server\sqlite3\storage.ide-wal
     projectPath: .vs\Topdown-Polygonal-Shooter\v15\Server\sqlite3\storage.ide-wal
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scenes\SampleScene.unity
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Assets\Scenes\SampleScene.unity
+    projectPath: Assets\Scenes\SampleScene.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -58,6 +64,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\gfu\cache\branches.yaml
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\gfu\cache\branches.yaml
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
@@ -112,12 +124,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: ProjectSettings\ProjectSettings.asset
-    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\ProjectSettings\ProjectSettings.asset
-    projectPath: ProjectSettings\ProjectSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Temp\__Backupscenes\0.backup
     fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\__Backupscenes\0.backup
     projectPath: Temp\__Backupscenes\0.backup
@@ -130,15 +136,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-a67a76b0e196a4147b22a061145138ca
-    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-a67a76b0e196a4147b22a061145138ca
-    projectPath: Temp\UnityTempFile-a67a76b0e196a4147b22a061145138ca
+  - path: Temp\UnityTempFile-28abf8d33b610e441b50861e8323c752
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-28abf8d33b610e441b50861e8323c752
+    projectPath: Temp\UnityTempFile-28abf8d33b610e441b50861e8323c752
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-d3d6e0caf048f0848a5f3fac38aa25a7
-    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-d3d6e0caf048f0848a5f3fac38aa25a7
-    projectPath: Temp\UnityTempFile-d3d6e0caf048f0848a5f3fac38aa25a7
+  - path: Temp\UnityTempFile-40ca71dea8bde69409913f8e83dc13a6
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-40ca71dea8bde69409913f8e83dc13a6
+    projectPath: Temp\UnityTempFile-40ca71dea8bde69409913f8e83dc13a6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-ba714524d34dd81438419e4e777fcf00
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-ba714524d34dd81438419e4e777fcf00
+    projectPath: Temp\UnityTempFile-ba714524d34dd81438419e4e777fcf00
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e5375f37012988d4bb12a48747538926
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-e5375f37012988d4bb12a48747538926
+    projectPath: Temp\UnityTempFile-e5375f37012988d4bb12a48747538926
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

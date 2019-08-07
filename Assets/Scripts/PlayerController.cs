@@ -19,14 +19,16 @@ public class PlayerController : MonoBehaviour
     //The direction in which the player is moving
     private Vector2 moveVelocity;
 
+    //Health variables - self explanatory
     public int maxHealth;
     public int currentHealth;
 
+    //Invinciblity after being hit by enemy
     private float invincibilityCounter;
-    public float knockbackLength;
-    public float knockbackForce;
-    private float knockbackCounter;
     public bool invincible;
+    //Used for knockback force and for how long
+    public float force;
+    public float knockTime;
 
     // Start is called before the first frame update
     void Start()
@@ -47,7 +49,16 @@ public class PlayerController : MonoBehaviour
         lr.SetPosition(0, transform.position);
         lr.SetPosition(1, new Vector3(mousePosition.x, mousePosition.y, transform.position.z));
 
-        //Shows or hides line depending on mouse click
+        MouseClickLine();
+
+        if (currentHealth <= 0f)
+        {
+            //make sure to put the 'death sequence' name in here to run the graphics and everything else
+        }
+    }
+    //Shows or hides line depending on mouse click
+    private void MouseClickLine()
+    {
         if (Input.GetKey(KeyCode.Mouse0))
         {
             lr.enabled = true;
@@ -56,42 +67,30 @@ public class PlayerController : MonoBehaviour
         {
             lr.enabled = false;
         }
-
-        if(currentHealth <= 0f)
-        {
-            //make sure to put the 'death sequence' name in here to run the graphics and everything else
-        }
     }
 
     void FixedUpdate()
     {
-        if (knockbackCounter <= 0)
-        {//Moves the player
-            rb.MovePosition(new Vector2(Mathf.Clamp(rb.position.x + moveVelocity.x, playerMinX, playerMaxX), Mathf.Clamp(rb.position.y + moveVelocity.y, playerMinY, playerMaxY)));
 
-            //Makes the player point towards the mouse cursor
-            mousePosition = Input.mousePosition;
-            mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
+        //Moves the player
+        rb.MovePosition(new Vector2(Mathf.Clamp(rb.position.x + moveVelocity.x, playerMinX, playerMaxX), Mathf.Clamp(rb.position.y + moveVelocity.y, playerMinY, playerMaxY)));
 
-            //finds the position of the player relative to the mouse
-            Vector2 mouseDirection = new Vector2(
-                mousePosition.x - transform.position.x,
-                mousePosition.y - transform.position.y
-            );
+        //Makes the player point towards the mouse cursor
+        mousePosition = Input.mousePosition;
+        mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
 
-            //rotates the player to face mouse
-            transform.up = mouseDirection;
+        //finds the position of the player relative to the mouse
+        Vector2 mouseDirection = new Vector2(
+            mousePosition.x - transform.position.x,
+            mousePosition.y - transform.position.y
+        );
 
-            if (invincibilityCounter > 0)
-            {
-                invincibilityCounter--;
-            }
+        //rotates the player to face mouse
+        transform.up = mouseDirection;
 
-        }
-
-        if (knockbackCounter > 0)
+        if (invincibilityCounter > 0)
         {
-            knockbackCounter -= Time.deltaTime;
+            invincibilityCounter--;
         }
     }
 
@@ -102,18 +101,32 @@ public class PlayerController : MonoBehaviour
     {
         if (other.gameObject.tag == "Enemy")
         {
-            //knockback;
+            //Knocks the enemy back if they touch the player
+            //Checks for rigidbody of enemy
+            Rigidbody2D enemy = other.GetComponent<Rigidbody2D>();
+            //If there is a rigidibody
+            if (enemy != null)
+            {
+                //Makes it so we can use the force of the object as you can't do that in dynamic mode
+                enemy.isKinematic = false;
+                //Finds the difference between the player and the enemies positions
+                Vector2 difference = enemy.transform.position - transform.position;
+                //Finds the average of the 'difference' and multiplies it with the public force
+                //Normalized make the vector a vector of 1
+                difference = difference.normalized * force;
+                //Adds the amount of force to the enemy for it to use to bounce off
+                enemy.AddForce(difference, ForceMode2D.Impulse);
+                //Starts the Coroutine that will make the enemy stop moving backwards - otherwise they'd just keep going off the screen
+                StartCoroutine(KnockbackCo(enemy));
+            }
 
-            if(invincibilityCounter == 0)
+            //Makes it so the player goes invincible for a little bit if hit by enemy
+            if (invincibilityCounter == 0)
             {
                 currentHealth -= 1;
                 invincibilityCounter = 60;
             }
-            
-        }
-        else
-        {
-            
+
         }
 
         //makes it so if the enemy's bullet hits the player they lose health
@@ -123,12 +136,25 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void Knockback()
-    {
-        knockbackCounter = knockbackLength;
-        invincible = true;
-    }
-
 
     //Player firing - to do
+    //private void Firing()
+    //{
+    //if(MouseClickLine)
+    //{
+    //firebullet - need bullet script from CJ
+    //}
+    //}
+
+    //Player won't keep moving backwards
+    //Turns Kinematic mode of player back on so it doesn't screw with the rest of our program
+    private IEnumerator KnockbackCo(Rigidbody2D enemy)
+    {
+        if (enemy != null)
+        {
+            yield return new WaitForSeconds(knockTime);
+            enemy.velocity = Vector2.zero;
+            enemy.isKinematic = true;
+        }
+    }
 }
