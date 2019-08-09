@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
     //Health variables - self explanatory
     public int maxHealth;
     public int currentHealth;
+    public Camera cam;
 
     //Invinciblity after being hit by enemy
     private float invincibilityCounter;
@@ -38,6 +39,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         lr = GetComponent<LineRenderer>();
         currentHealth = maxHealth;
+        cam = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
     }
 
     // Update is called once per frame
@@ -137,6 +139,11 @@ public class PlayerController : MonoBehaviour
         {
             currentHealth -= 1;
         }
+
+        if(currentHealth <=0)
+        {
+            DeathSequence();
+        }
     }
 
     //Player won't keep moving backwards
@@ -149,6 +156,16 @@ public class PlayerController : MonoBehaviour
             enemy.velocity = Vector2.zero;
             enemy.isKinematic = true;
         }
+    }
+
+    private void DeathSequence()
+    {
+        cam.orthographicSize = transform.position.x, transform.position.y;
+        //GetComponent<Camera>().orthographicSize -= 1;
+        //camera position zooms onto player
+        //theCamControl.DeathZoom();
+        //player vibrates for a couple seconds
+        //player explodes - delete object
     }
 
 
