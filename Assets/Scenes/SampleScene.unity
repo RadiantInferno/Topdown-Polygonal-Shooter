@@ -205,8 +205,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11ca403769e072d4690d92bf183c97fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  zoomSize: 4
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -363,12 +361,14 @@ MonoBehaviour:
   speed: 0.1
   maxHealth: 5
   currentHealth: 0
-  theCamControl: {fileID: 0}
+  cam: {fileID: 519420031}
   invincible: 0
   enemyForce: 5
   enemyknockTime: 0.4
   playerForce: -5
   playerknockTime: 0.5
+  canMove: 0
+  thePlayer: {fileID: 1429899581}
 --- !u!50 &1429899582
 Rigidbody2D:
   serializedVersion: 4

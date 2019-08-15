@@ -13,15 +13,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-08-09T15:41:46.330+10:00
-  initializedAtString: 2019-08-09T15:38:56.980+10:00
+  lastUpdatedAtString: 2019-08-15T15:10:44.700+10:00
+  initializedAtString: 2019-08-15T13:58:48.346+10:00
   entries:
-  - path: .vs\Topdown-Polygonal-Shooter\v15\.suo
-    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\.vs\Topdown-Polygonal-Shooter\v15\.suo
-    projectPath: .vs\Topdown-Polygonal-Shooter\v15\.suo
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: .vs\Topdown-Polygonal-Shooter\v15\Server\sqlite3\storage.ide
     fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\.vs\Topdown-Polygonal-Shooter\v15\Server\sqlite3\storage.ide
     projectPath: .vs\Topdown-Polygonal-Shooter\v15\Server\sqlite3\storage.ide
@@ -40,30 +34,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assembly-CSharp.csproj
-    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Assets\Scenes\SampleScene.unity
     fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Assets\Scenes\SampleScene.unity
     projectPath: Assets\Scenes\SampleScene.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Assets\Scripts\CameraController.cs
-    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Assets\Scripts\CameraController.cs
-    projectPath: Assets\Scripts\CameraController.cs
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scripts\CameraController.cs.meta
-    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Assets\Scripts\CameraController.cs.meta
-    projectPath: Assets\Scripts\CameraController.cs.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Assets\Scripts\PlayerController.cs
     fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Assets\Scripts\PlayerController.cs
     projectPath: Assets\Scripts\PlayerController.cs
@@ -79,12 +55,6 @@ MonoBehaviour:
   - path: Library\Collab\CollabSnapshot_3ddd2522-2843-4e6e-9dc0-166f7fc399e9.txt
     fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\Collab\CollabSnapshot_3ddd2522-2843-4e6e-9dc0-166f7fc399e9.txt
     projectPath: Library\Collab\CollabSnapshot_3ddd2522-2843-4e6e-9dc0-166f7fc399e9.txt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\CurrentLayout.dwlt
-    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\CurrentLayout.dwlt
-    projectPath: Library\CurrentLayout.dwlt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -106,12 +76,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\gfu\cache\gitlog.yaml
-    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\gfu\cache\gitlog.yaml
-    projectPath: Library\gfu\cache\gitlog.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\gfu\cache\gitstatusentries.yaml
     fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
@@ -130,18 +94,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\11\11ca403769e072d4690d92bf183c97fe
-    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\11\11ca403769e072d4690d92bf183c97fe
-    projectPath: Library\metadata\11\11ca403769e072d4690d92bf183c97fe
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\11\11ca403769e072d4690d92bf183c97fe.info
-    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\11\11ca403769e072d4690d92bf183c97fe.info
-    projectPath: Library\metadata\11\11ca403769e072d4690d92bf183c97fe.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\metadata\e1\e125bc9b1e3799d4faac95fd8856b37e
     fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\e1\e125bc9b1e3799d4faac95fd8856b37e
     projectPath: Library\metadata\e1\e125bc9b1e3799d4faac95fd8856b37e
@@ -160,39 +112,63 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 5
-  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+  - path: Library\StateCache\Hierarchy\42911b-mainStage.json
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\StateCache\Hierarchy\42911b-mainStage.json
+    projectPath: Library\StateCache\Hierarchy\42911b-mainStage.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+  - path: Temp\__Backupscenes\0.backup
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\__Backupscenes\0.backup
+    projectPath: Temp\__Backupscenes\0.backup
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityLockfile
     fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-5d2ed746dc96b2a459368604b3d027ca
-    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-5d2ed746dc96b2a459368604b3d027ca
-    projectPath: Temp\UnityTempFile-5d2ed746dc96b2a459368604b3d027ca
+  - path: Temp\UnityTempFile-312d9b79c58ee94478f201236d2db0c8
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-312d9b79c58ee94478f201236d2db0c8
+    projectPath: Temp\UnityTempFile-312d9b79c58ee94478f201236d2db0c8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-84b4a23679855924cb2781b33e3de789
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-84b4a23679855924cb2781b33e3de789
+    projectPath: Temp\UnityTempFile-84b4a23679855924cb2781b33e3de789
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-9e81b6506a9fc69419c902c4d432c1c2
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-9e81b6506a9fc69419c902c4d432c1c2
+    projectPath: Temp\UnityTempFile-9e81b6506a9fc69419c902c4d432c1c2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a1a45dd15ea6d7543890c26518c05af1
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-a1a45dd15ea6d7543890c26518c05af1
+    projectPath: Temp\UnityTempFile-a1a45dd15ea6d7543890c26518c05af1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c4ae89ac7e26c4642afbedc513058f7d
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-c4ae89ac7e26c4642afbedc513058f7d
+    projectPath: Temp\UnityTempFile-c4ae89ac7e26c4642afbedc513058f7d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-d4a14530620258f42b2f575767f2540e
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-d4a14530620258f42b2f575767f2540e
+    projectPath: Temp\UnityTempFile-d4a14530620258f42b2f575767f2540e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-d9d7445248ae3f44ba80931da404b0a1
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-d9d7445248ae3f44ba80931da404b0a1
+    projectPath: Temp\UnityTempFile-d9d7445248ae3f44ba80931da404b0a1
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

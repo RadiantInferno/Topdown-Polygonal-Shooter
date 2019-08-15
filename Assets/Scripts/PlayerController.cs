@@ -33,6 +33,9 @@ public class PlayerController : MonoBehaviour
     public float playerForce;
     public float playerknockTime;
 
+    //tells if the player can move or not
+    public bool canMove;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +43,7 @@ public class PlayerController : MonoBehaviour
         lr = GetComponent<LineRenderer>();
         currentHealth = maxHealth;
         cam = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
+        canMove = true;
     }
 
     // Update is called once per frame
@@ -140,7 +144,7 @@ public class PlayerController : MonoBehaviour
             currentHealth -= 1;
         }
 
-        if(currentHealth <=0)
+        if (currentHealth <= 0)
         {
             DeathSequence();
         }
@@ -160,13 +164,19 @@ public class PlayerController : MonoBehaviour
 
     private void DeathSequence()
     {
-        cam.orthographicSize = transform.position.x, transform.position.y;
-        //GetComponent<Camera>().orthographicSize -= 1;
-        //camera position zooms onto player
-        //theCamControl.DeathZoom();
-        //player vibrates for a couple seconds
-        //player explodes - delete object
+        //stops the player from moving
+        canMove = false;
+        //deletes the player - dies and disappears
+        Destroy(gameObject);
     }
+    //cam.orthographicSize = Transform.position.x + transform.position.y;
+
+    //GetComponent<Camera>().orthographicSize -= 1;
+    //camera position zooms onto player
+    //theCamControl.DeathZoom();
+    //player vibrates for a couple seconds
+    //player explodes - delete object
+
 
 
     //Player firing - to do
