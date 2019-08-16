@@ -36,6 +36,10 @@ public class PlayerController : MonoBehaviour
     //tells if the player can move or not
     public bool canMove;
 
+    //particle effect that symbolises that the player died
+    public GameObject DeathSplosion;
+    public PlayerController Player;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -166,9 +170,17 @@ public class PlayerController : MonoBehaviour
     {
         //stops the player from moving
         canMove = false;
+
         //deletes the player - dies and disappears
         Destroy(gameObject);
+        //runs the particle effect
+        Instantiate(DeathSplosion, Player.transform.position, Player.transform.rotation);
+
     }
+
+
+
+
     //cam.orthographicSize = Transform.position.x + transform.position.y;
 
     //GetComponent<Camera>().orthographicSize -= 1;
@@ -219,4 +231,4 @@ public class PlayerController : MonoBehaviour
     //Player.isKinematic = true;
     //}
     //}
-}
+  }

@@ -276,6 +276,7 @@ GameObject:
   - component: {fileID: 1429899582}
   - component: {fileID: 1429899583}
   - component: {fileID: 1429899584}
+  - component: {fileID: 1429899585}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -368,7 +369,9 @@ MonoBehaviour:
   playerForce: -5
   playerknockTime: 0.5
   canMove: 0
-  thePlayer: {fileID: 1429899581}
+  DeathSplosion: {fileID: 8847521519153765180, guid: 884ddc13ac927d04194177c2fa4a9270,
+    type: 3}
+  Player: {fileID: 1429899581}
 --- !u!50 &1429899582
 Rigidbody2D:
   serializedVersion: 4
@@ -512,3 +515,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.82, y: 6.15}
   m_EdgeRadius: 0
+--- !u!95 &1429899585
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429899578}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b6e312582047cb44196f6aef61e42a2e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
