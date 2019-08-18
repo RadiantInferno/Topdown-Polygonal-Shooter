@@ -40,6 +40,11 @@ public class PlayerController : MonoBehaviour
     public GameObject DeathSplosion;
     public PlayerController Player;
 
+    private bool shaking;
+    public float shakeAmount;
+    public bool shakePlayer;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -48,6 +53,7 @@ public class PlayerController : MonoBehaviour
         currentHealth = maxHealth;
         cam = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
         canMove = true;
+        shakePlayer = false;
     }
 
     // Update is called once per frame
@@ -68,6 +74,7 @@ public class PlayerController : MonoBehaviour
             //make sure to put the 'death sequence' name in here to run the graphics and everything else
         }
     }
+
     //Shows or hides line depending on mouse click
     private void MouseClickLine()
     {
@@ -170,12 +177,42 @@ public class PlayerController : MonoBehaviour
     {
         //stops the player from moving
         canMove = false;
+        shakePlayer = true;
+
+        if(shakePlayer)
+        {
+            ShakeMe();
+
+            if (shaking)
+            {
+                Vector3 newPos = Random.insideUnitSphere * (Time.deltaTime * shakeAmount);
+                newPos.z = transform.position.z;
+            }
+        }
+
 
         //deletes the player - dies and disappears
-        Destroy(gameObject);
+        //Destroy(gameObject);
         //runs the particle effect
         Instantiate(DeathSplosion, Player.transform.position, Player.transform.rotation);
 
+    }
+
+    public void ShakeMe()
+    {
+        StartCoroutine("Shake");
+        Debug.Log("yes");
+    }
+
+    IEnumerator Shake()
+    {
+        if(shaking == false)
+        {
+            shaking = true;
+        }
+
+        yield return new WaitForSeconds(0.25f);
+        shaking = false;
     }
 
 
@@ -187,7 +224,6 @@ public class PlayerController : MonoBehaviour
     //camera position zooms onto player
     //theCamControl.DeathZoom();
     //player vibrates for a couple seconds
-    //player explodes - delete object
 
 
 

@@ -13,9 +13,340 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2019-08-16T09:27:43.436+10:00
-  initializedAtString: 2019-08-16T09:27:43.436+10:00
+  lastUpdatedAtString: 2019-08-18T20:21:19.984+10:00
+  initializedAtString: 2019-08-18T15:03:36.413+10:00
   log:
+  - commitID: 43d6986d86f7c789cbfbc2753861dc37c053fde3
+    mergeA: 
+    mergeB: 
+    authorName: ebhamersma
+    authorEmail: ebhamersma@gmail.com
+    commitEmail: ebhamersma@gmail.com
+    commitName: ebhamersma
+    summary: Enemy Explosion
+    description: Made it so the enemy explodes and dissapears when on 0 health. Tried
+      to make it so the player vibrates before dying but got stuck
+    timeString: 2019-08-16T10:15:12.000+10:00
+    commitTimeString: 2019-08-16T10:15:12.000+10:00
+    changes:
+    - path: .vs\Topdown-Polygonal-Shooter\v15\.suo
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\.vs\Topdown-Polygonal-Shooter\v15\.suo
+      projectPath: .vs\Topdown-Polygonal-Shooter\v15\.suo
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: .vs\Topdown-Polygonal-Shooter\v15\Server\sqlite3\storage.ide
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\.vs\Topdown-Polygonal-Shooter\v15\Server\sqlite3\storage.ide
+      projectPath: .vs\Topdown-Polygonal-Shooter\v15\Server\sqlite3\storage.ide
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: .vs\Topdown-Polygonal-Shooter\v15\Server\sqlite3\storage.ide-shm
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\.vs\Topdown-Polygonal-Shooter\v15\Server\sqlite3\storage.ide-shm
+      projectPath: .vs\Topdown-Polygonal-Shooter\v15\Server\sqlite3\storage.ide-shm
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: .vs\Topdown-Polygonal-Shooter\v15\Server\sqlite3\storage.ide-wal
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\.vs\Topdown-Polygonal-Shooter\v15\Server\sqlite3\storage.ide-wal
+      projectPath: .vs\Topdown-Polygonal-Shooter\v15\Server\sqlite3\storage.ide-wal
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Animations.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Assets\Animations.meta
+      projectPath: Assets\Animations.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Player.controller
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Assets\Animations\Player.controller
+      projectPath: Assets\Animations\Player.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Player.controller.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Assets\Animations\Player.controller.meta
+      projectPath: Assets\Animations\Player.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Playervibrate.anim
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Assets\Animations\Playervibrate.anim
+      projectPath: Assets\Animations\Playervibrate.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Playervibrate.anim.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Assets\Animations\Playervibrate.anim.meta
+      projectPath: Assets\Animations\Playervibrate.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\DeathSplosion.prefab
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Assets\Prefabs\DeathSplosion.prefab
+      projectPath: Assets\Prefabs\DeathSplosion.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\DeathSplosion.prefab.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Assets\Prefabs\DeathSplosion.prefab.meta
+      projectPath: Assets\Prefabs\DeathSplosion.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\PlayerController.cs
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Assets\Scripts\PlayerController.cs
+      projectPath: Assets\Scripts\PlayerController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Sprites\Left.png
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Assets\Sprites\Left.png
+      projectPath: Assets\Sprites\Left.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Sprites\Left.png.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Assets\Sprites\Left.png.meta
+      projectPath: Assets\Sprites\Left.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\Collab\CollabSnapshot_3ddd2522-2843-4e6e-9dc0-166f7fc399e9.txt
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\Collab\CollabSnapshot_3ddd2522-2843-4e6e-9dc0-166f7fc399e9.txt
+      projectPath: Library\Collab\CollabSnapshot_3ddd2522-2843-4e6e-9dc0-166f7fc399e9.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ShaderCache\1\18710b69a0303bec8a7cfc707853fb82.bin
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ShaderCache\1\18710b69a0303bec8a7cfc707853fb82.bin
+      projectPath: Library\ShaderCache\1\18710b69a0303bec8a7cfc707853fb82.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\2\29ed828b035a542a2272caff8b799fa6.bin
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ShaderCache\2\29ed828b035a542a2272caff8b799fa6.bin
+      projectPath: Library\ShaderCache\2\29ed828b035a542a2272caff8b799fa6.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\3\3eb64aa7948ccfb2cbc6b99b3a8a241c.bin
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ShaderCache\3\3eb64aa7948ccfb2cbc6b99b3a8a241c.bin
+      projectPath: Library\ShaderCache\3\3eb64aa7948ccfb2cbc6b99b3a8a241c.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\6\60ee5c6560038b5b18f4f24a9540c5cb.bin
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ShaderCache\6\60ee5c6560038b5b18f4f24a9540c5cb.bin
+      projectPath: Library\ShaderCache\6\60ee5c6560038b5b18f4f24a9540c5cb.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\8\8065433e82e3f67f3f3c0661da83b984.bin
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ShaderCache\8\8065433e82e3f67f3f3c0661da83b984.bin
+      projectPath: Library\ShaderCache\8\8065433e82e3f67f3f3c0661da83b984.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\EditorEncounteredVariants
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ShaderCache\EditorEncounteredVariants
+      projectPath: Library\ShaderCache\EditorEncounteredVariants
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ShaderCache\d\dcbe99218eb885fb3208da2f0b413669.bin
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ShaderCache\d\dcbe99218eb885fb3208da2f0b413669.bin
+      projectPath: Library\ShaderCache\d\dcbe99218eb885fb3208da2f0b413669.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\f\f54fe5e7f7602688e64288113caa37e5.bin
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ShaderCache\f\f54fe5e7f7602688e64288113caa37e5.bin
+      projectPath: Library\ShaderCache\f\f54fe5e7f7602688e64288113caa37e5.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\ShaderCache\f\f866df9e0e7cac553bc98bccc31e8b32.bin
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ShaderCache\f\f866df9e0e7cac553bc98bccc31e8b32.bin
+      projectPath: Library\ShaderCache\f\f866df9e0e7cac553bc98bccc31e8b32.bin
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\11f957-mainStage.json
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\StateCache\SceneView\11f957-mainStage.json
+      projectPath: Library\StateCache\SceneView\11f957-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\assetDatabase3
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\77\778604fd30e9d414a9340391b6549be6
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\77\778604fd30e9d414a9340391b6549be6
+      projectPath: Library\metadata\77\778604fd30e9d414a9340391b6549be6
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\77\778604fd30e9d414a9340391b6549be6.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\77\778604fd30e9d414a9340391b6549be6.info
+      projectPath: Library\metadata\77\778604fd30e9d414a9340391b6549be6.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\88\884ddc13ac927d04194177c2fa4a9270
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\88\884ddc13ac927d04194177c2fa4a9270
+      projectPath: Library\metadata\88\884ddc13ac927d04194177c2fa4a9270
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\88\884ddc13ac927d04194177c2fa4a9270.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\88\884ddc13ac927d04194177c2fa4a9270.info
+      projectPath: Library\metadata\88\884ddc13ac927d04194177c2fa4a9270.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\b6\b6e312582047cb44196f6aef61e42a2e
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\b6\b6e312582047cb44196f6aef61e42a2e
+      projectPath: Library\metadata\b6\b6e312582047cb44196f6aef61e42a2e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\b6\b6e312582047cb44196f6aef61e42a2e.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\b6\b6e312582047cb44196f6aef61e42a2e.info
+      projectPath: Library\metadata\b6\b6e312582047cb44196f6aef61e42a2e.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\bd\bd03b94997d67ef488d1fb0901405e7b
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\bd\bd03b94997d67ef488d1fb0901405e7b
+      projectPath: Library\metadata\bd\bd03b94997d67ef488d1fb0901405e7b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\bd\bd03b94997d67ef488d1fb0901405e7b.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\bd\bd03b94997d67ef488d1fb0901405e7b.info
+      projectPath: Library\metadata\bd\bd03b94997d67ef488d1fb0901405e7b.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\cb\cbf72112cfaa90540b173bf3f34873ef
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\cb\cbf72112cfaa90540b173bf3f34873ef
+      projectPath: Library\metadata\cb\cbf72112cfaa90540b173bf3f34873ef
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\cb\cbf72112cfaa90540b173bf3f34873ef.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\cb\cbf72112cfaa90540b173bf3f34873ef.info
+      projectPath: Library\metadata\cb\cbf72112cfaa90540b173bf3f34873ef.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\e1\e125bc9b1e3799d4faac95fd8856b37e
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\e1\e125bc9b1e3799d4faac95fd8856b37e
+      projectPath: Library\metadata\e1\e125bc9b1e3799d4faac95fd8856b37e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\shadercompiler-UnityShaderCompiler.exe1.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\shadercompiler-UnityShaderCompiler.exe2.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\shadercompiler-UnityShaderCompiler.exe3.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe4.log
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\shadercompiler-UnityShaderCompiler.exe4.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe5.log
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\shadercompiler-UnityShaderCompiler.exe5.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe5.log
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
   - commitID: ca314cbe95d0959ca998533f263b0de2c235887d
     mergeA: 
     mergeB: 
