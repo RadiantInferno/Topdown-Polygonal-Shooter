@@ -15,7 +15,6 @@ public class PlayerController : MonoBehaviour
     private Vector3 mousePosition;
 
     private Rigidbody2D rb;
-    private LineRenderer lr;
     //The direction in which the player is moving
     private Vector2 moveVelocity;
 
@@ -39,7 +38,9 @@ public class PlayerController : MonoBehaviour
     //particle effect that symbolises that the player died
     public GameObject DeathSplosion;
     public PlayerController Player;
+    public GameObject bullet;
 
+    private Vector3 deathPos;
     private bool shaking;
     public float shakeAmount;
     public bool shakePlayer;
@@ -49,7 +50,6 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        lr = GetComponent<LineRenderer>();
         currentHealth = maxHealth;
         cam = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
         canMove = true;
@@ -63,28 +63,19 @@ public class PlayerController : MonoBehaviour
         Vector2 moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         moveVelocity = moveInput.normalized * speed;
 
-        //Draws line from player to cursor
-        lr.SetPosition(0, transform.position);
-        lr.SetPosition(1, new Vector3(mousePosition.x, mousePosition.y, transform.position.z));
-
-        MouseClickLine();
-
         if (currentHealth <= 0f)
         {
             //make sure to put the 'death sequence' name in here to run the graphics and everything else
         }
-    }
 
-    //Shows or hides line depending on mouse click
-    private void MouseClickLine()
-    {
-        if (Input.GetKey(KeyCode.Mouse0))
+        if (shaking)
         {
-            lr.enabled = true;
-        }
-        else
-        {
-            lr.enabled = false;
+            Vector3 newPos = deathPos + Random.insideUnitSphere * (Time.deltaTime * shakeAmount);
+            newPos.z = transform.position.z;
+            transform.position = newPos;
+
+            cam.orthographicSize -= 0.05f;
+            cam.transform.position = Vector3.MoveTowards(cam.transform.position, new Vector3(transform.position.x, transform.position.y, cam.transform.position.z), 0.3f);
         }
     }
 
@@ -92,7 +83,7 @@ public class PlayerController : MonoBehaviour
     {
 
         //Moves the player
-        rb.MovePosition(new Vector2(Mathf.Clamp(rb.position.x + moveVelocity.x, playerMinX, playerMaxX), Mathf.Clamp(rb.position.y + moveVelocity.y, playerMinY, playerMaxY)));
+        if (canMove) rb.MovePosition(new Vector2(Mathf.Clamp(rb.position.x + moveVelocity.x, playerMinX, playerMaxX), Mathf.Clamp(rb.position.y + moveVelocity.y, playerMinY, playerMaxY)));
 
         //Makes the player point towards the mouse cursor
         mousePosition = Input.mousePosition;
@@ -106,6 +97,12 @@ public class PlayerController : MonoBehaviour
 
         //rotates the player to face mouse
         transform.up = mouseDirection;
+
+        if (Input.GetKey(KeyCode.Mouse0))
+        {
+            Bullet newBullet = Instantiate(bullet, transform.position, transform.rotation).GetComponent<Bullet>();
+            newBullet.instantiateBullet("player", 0.3f, transform.rotation, Color.green);
+        }
 
         if (invincibilityCounter > 0)
         {
@@ -136,9 +133,16 @@ public class PlayerController : MonoBehaviour
                 //Adds the amount of force to the enemy for it to use to bounce off
                 enemy.AddForce(enemyDifference, ForceMode2D.Impulse);
                 //Starts the Coroutine that will make the enemy stop moving backwards - otherwise they'd just keep going off the screen
-                StartCoroutine(KnockbackEnemyCo(enemy));
+                StartCoroutine(KnockbackCo(enemy, "enemy"));
 
             }
+
+            rb.isKinematic = false;
+            canMove = false;
+            Vector2 playerDifference = transform.position - other.transform.position;
+            playerDifference = playerDifference.normalized * playerForce;
+            rb.AddForce(playerDifference, ForceMode2D.Impulse);
+            StartCoroutine(KnockbackCo(rb, "player"));
 
             //Makes it so the player goes invincible for a little bit if hit by enemy
             if (invincibilityCounter == 0)
@@ -157,62 +161,40 @@ public class PlayerController : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-            DeathSequence();
+            StartCoroutine("DeathSequence");
         }
     }
 
     //Player won't keep moving backwards
     //Turns Kinematic mode of player back on so it doesn't screw with the rest of our program
-    private IEnumerator KnockbackEnemyCo(Rigidbody2D enemy)
+    private IEnumerator KnockbackCo(Rigidbody2D rigidB, string type)
     {
-        if (enemy != null)
+        if (rigidB != null)
         {
-            yield return new WaitForSeconds(enemyknockTime);
-            enemy.velocity = Vector2.zero;
-            enemy.isKinematic = true;
+            if (type == "enemy") yield return new WaitForSeconds(enemyknockTime);
+            if (type == "player") yield return new WaitForSeconds(playerknockTime);
+            if (type == "player") canMove = true;
+            rigidB.velocity = Vector2.zero;
+            rigidB.isKinematic = true;
         }
     }
-
-    private void DeathSequence()
+    
+    IEnumerator DeathSequence()
     {
         //stops the player from moving
         canMove = false;
-        shakePlayer = true;
-
-        if(shakePlayer)
-        {
-            ShakeMe();
-
-            if (shaking)
-            {
-                Vector3 newPos = Random.insideUnitSphere * (Time.deltaTime * shakeAmount);
-                newPos.z = transform.position.z;
-            }
-        }
-
-
-        //deletes the player - dies and disappears
-        //Destroy(gameObject);
-        //runs the particle effect
-        Instantiate(DeathSplosion, Player.transform.position, Player.transform.rotation);
-
-    }
-
-    public void ShakeMe()
-    {
-        StartCoroutine("Shake");
-        Debug.Log("yes");
-    }
-
-    IEnumerator Shake()
-    {
-        if(shaking == false)
+        deathPos = transform.position;
+        if (shaking == false)
         {
             shaking = true;
         }
 
-        yield return new WaitForSeconds(0.25f);
+        yield return new WaitForSeconds(0.75f);
         shaking = false;
+        //deletes the player - dies and disappears
+        Player.gameObject.SetActive(false);
+        //runs the particle effect
+        Instantiate(DeathSplosion, Player.transform.position, Player.transform.rotation);
     }
 
 
@@ -236,35 +218,4 @@ public class PlayerController : MonoBehaviour
     //}
     //}
 
-
-
-
-
-    //Below is the code needed to get the player to bounce off of the enemy, however this has to be put into the enemy code, not the players
-
-    // void OnTriggerEnter2D(Collider2D other)
-    // {
-    //   if (other.gameObject.tag == "Enemy")
-    // {
-    //   Rigidbody2D Player = other.GetComponent<Rigidbody2D>();
-    // if (Player != null)
-    //{
-    //  Player.isKinematic = false;
-    //Vector2 playerDifference = transform.position - enemy.transform.position;
-    //playerDifference = playerDifference.normalized * playerForce;
-    //Player.AddForce(playerDifference, ForceMode2D.Impulse);
-    //StartCoroutine(KnockbackPlayerCo(Player));
-    //}
-    //}
-    //}
-
-    //private IEnumerator KnockbackPlayerCo(Rigidbody2D Player)
-    //{
-    //  if (Player != null)
-    //{
-    //  yield return new WaitForSeconds(playerknockTime);
-    //Player.velocity = Vector2.zero;
-    //Player.isKinematic = true;
-    //}
-    //}
-  }
+}
