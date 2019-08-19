@@ -688,7 +688,6 @@ GameObject:
   - component: {fileID: 1429899582}
   - component: {fileID: 1429899583}
   - component: {fileID: 1429899584}
-  - component: {fileID: 1429899585}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -786,7 +785,6 @@ MonoBehaviour:
   Player: {fileID: 1429899581}
   bullet: {fileID: 2974960377525602458, guid: 7e7768b969aa41c4d848a1ee4a29b53c, type: 3}
   shakeAmount: 10
-  shakePlayer: 0
 --- !u!50 &1429899582
 Rigidbody2D:
   serializedVersion: 4
@@ -930,25 +928,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.82, y: 6.15}
   m_EdgeRadius: 0
---- !u!95 &1429899585
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1429899578}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b6e312582047cb44196f6aef61e42a2e, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1708164404
 GameObject:
   m_ObjectHideFlags: 0
