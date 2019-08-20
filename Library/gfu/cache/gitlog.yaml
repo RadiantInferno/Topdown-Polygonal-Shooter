@@ -13,9 +13,2440 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2019-08-20T10:58:49.765+10:00
-  initializedAtString: 2019-08-20T10:58:49.449+10:00
+  lastUpdatedAtString: 2019-08-20T13:18:50.331+10:00
+  initializedAtString: 2019-08-20T13:18:50.051+10:00
   log:
+  - commitID: 423ab4dcedb1d26fbc20ed6d178949310c9ec8c2
+    mergeA: 
+    mergeB: 
+    authorName: ebhamersma
+    authorEmail: ebhamersma@gmail.com
+    commitEmail: ebhamersma@gmail.com
+    commitName: ebhamersma
+    summary: Upgraded Unity Version
+    description: Updated unity to the version we decided to go with the make sure
+      that everyone would have the same version
+    timeString: 2019-08-20T11:00:23.000+10:00
+    commitTimeString: 2019-08-20T11:00:23.000+10:00
+    changes:
+    - path: Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\APIUpdater\project-dependencies.graph
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\APIUpdater\project-dependencies.graph
+      projectPath: Library\APIUpdater\project-dependencies.graph
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\Collab\CollabSnapshot_3ddd2522-2843-4e6e-9dc0-166f7fc399e9.txt
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\Collab\CollabSnapshot_3ddd2522-2843-4e6e-9dc0-166f7fc399e9.txt
+      projectPath: Library\Collab\CollabSnapshot_3ddd2522-2843-4e6e-9dc0-166f7fc399e9.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\CurrentLayout-default.dwlt
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\CurrentLayout-default.dwlt
+      projectPath: Library\CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.4\CHANGELOG.md
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.4\CHANGELOG.md
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.4\CHANGELOG.md
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.4\Editor\Discovery.cs
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.4\Editor\Discovery.cs
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.4\Editor\Discovery.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.4\Editor\ProjectGeneration.cs
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.4\Editor\ProjectGeneration.cs
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.4\Editor\ProjectGeneration.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.4\Editor\RiderScriptEditor.cs
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.4\Editor\RiderScriptEditor.cs
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.4\Editor\RiderScriptEditor.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.4\Editor\Utility.cs
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.4\Editor\Utility.cs
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.4\Editor\Utility.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\.editorconfig
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\.editorconfig
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\.editorconfig
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\CHANGELOG.md
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\CHANGELOG.md
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\CHANGELOG.md
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\CHANGELOG.md.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\CHANGELOG.md.meta
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\CHANGELOG.md.meta
+      originalPath: Library\PackageCache\com.unity.ide.rider@1.0.4\CHANGELOG.md.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\CONTRIBUTING.md
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\CONTRIBUTING.md
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\CONTRIBUTING.md
+      originalPath: Library\PackageCache\com.unity.ide.rider@1.0.4\CONTRIBUTING.md
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\CONTRIBUTING.md.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\CONTRIBUTING.md.meta
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\CONTRIBUTING.md.meta
+      originalPath: Library\PackageCache\com.unity.ide.rider@1.0.4\CONTRIBUTING.md.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\Documentation~\README.md
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\Documentation~\README.md
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\Documentation~\README.md
+      originalPath: Library\PackageCache\com.unity.ide.rider@1.0.4\Documentation~\README.md
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\LICENSE.md
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\LICENSE.md
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\LICENSE.md
+      originalPath: Library\PackageCache\com.unity.ide.rider@1.0.4\LICENSE.md
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\LICENSE.md.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\LICENSE.md.meta
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\LICENSE.md.meta
+      originalPath: Library\PackageCache\com.unity.ide.rider@1.0.4\LICENSE.md.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\Rider.meta
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor.meta
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor.meta
+      originalPath: Library\PackageCache\com.unity.ide.rider@1.0.4\Editor.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\Discovery.cs
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\Discovery.cs
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\Discovery.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\Discovery.cs.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\Discovery.cs.meta
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\Discovery.cs.meta
+      originalPath: Library\PackageCache\com.unity.ide.rider@1.0.4\Editor\Discovery.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\EditorPluginInterop.cs
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\EditorPluginInterop.cs
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\EditorPluginInterop.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\EditorPluginInterop.cs.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\EditorPluginInterop.cs.meta
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\EditorPluginInterop.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\LoggingLevel.cs
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\LoggingLevel.cs
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\LoggingLevel.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\LoggingLevel.cs.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\LoggingLevel.cs.meta
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\LoggingLevel.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\PluginSettings.cs
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\PluginSettings.cs
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\PluginSettings.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\PluginSettings.cs.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\PluginSettings.cs.meta
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\PluginSettings.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\ProjectGeneration.cs
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\ProjectGeneration.cs
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\ProjectGeneration.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\ProjectGeneration.cs.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\ProjectGeneration.cs.meta
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\ProjectGeneration.cs.meta
+      originalPath: Library\PackageCache\com.unity.ide.rider@1.0.4\Editor\ProjectGeneration.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\RiderInitializer.cs
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\RiderInitializer.cs
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\RiderInitializer.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\RiderInitializer.cs.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\RiderInitializer.cs.meta
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\RiderInitializer.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\RiderScriptEditor.cs
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\RiderScriptEditor.cs
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\RiderScriptEditor.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\RiderScriptEditor.cs.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\RiderScriptEditor.cs.meta
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\RiderScriptEditor.cs.meta
+      originalPath: Library\PackageCache\com.unity.ide.rider@1.0.4\Editor\RiderScriptEditor.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\UnityUtils.cs
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\UnityUtils.cs
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\UnityUtils.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\UnityUtils.cs.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\UnityUtils.cs.meta
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\UnityUtils.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\Utility.cs
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\Utility.cs
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\Utility.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\Utility.cs.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\Utility.cs.meta
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\Utility.cs.meta
+      originalPath: Library\PackageCache\com.unity.ide.rider@1.0.4\Editor\Utility.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\com.unity.ide.rider.asmdef
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\com.unity.ide.rider.asmdef
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\com.unity.ide.rider.asmdef
+      originalPath: Library\PackageCache\com.unity.ide.rider@1.0.4\Editor\com.unity.ide.rider.asmdef
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\com.unity.ide.rider.asmdef.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\com.unity.ide.rider.asmdef.meta
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\Rider\Editor\com.unity.ide.rider.asmdef.meta
+      originalPath: Library\PackageCache\com.unity.ide.rider@1.0.4\Editor\com.unity.ide.rider.asmdef.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\package.json
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\package.json
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\package.json
+      originalPath: Library\PackageCache\com.unity.ide.rider@1.0.4\package.json
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.rider@1.0.8\package.json.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.rider@1.0.8\package.json.meta
+      projectPath: Library\PackageCache\com.unity.ide.rider@1.0.8\package.json.meta
+      originalPath: Library\PackageCache\com.unity.ide.rider@1.0.4\package.json.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.vscode@1.0.7\CHANGELOG.md
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.vscode@1.0.7\CHANGELOG.md
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.0.7\CHANGELOG.md
+      originalPath: Library\PackageCache\com.unity.ide.vscode@1.0.4\CHANGELOG.md
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.vscode@1.0.7\CHANGELOG.md.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.vscode@1.0.7\CHANGELOG.md.meta
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.0.7\CHANGELOG.md.meta
+      originalPath: Library\PackageCache\com.unity.ide.vscode@1.0.4\CHANGELOG.md.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.vscode@1.0.7\CONTRIBUTING.md
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.vscode@1.0.7\CONTRIBUTING.md
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.0.7\CONTRIBUTING.md
+      originalPath: Library\PackageCache\com.unity.ide.vscode@1.0.4\CONTRIBUTING.md
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.vscode@1.0.7\CONTRIBUTING.md.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.vscode@1.0.7\CONTRIBUTING.md.meta
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.0.7\CONTRIBUTING.md.meta
+      originalPath: Library\PackageCache\com.unity.ide.vscode@1.0.4\CONTRIBUTING.md.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.vscode@1.0.7\Documentation~\README.md
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.vscode@1.0.7\Documentation~\README.md
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.0.7\Documentation~\README.md
+      originalPath: Library\PackageCache\com.unity.ide.vscode@1.0.4\Documentation~\README.md
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor.meta
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor.meta
+      originalPath: Library\PackageCache\com.unity.ide.vscode@1.0.4\Editor.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\ProjectGeneration.cs
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\ProjectGeneration.cs
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\ProjectGeneration.cs
+      originalPath: Library\PackageCache\com.unity.ide.vscode@1.0.4\Editor\ProjectGeneration.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\ProjectGeneration.cs.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\ProjectGeneration.cs.meta
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\ProjectGeneration.cs.meta
+      originalPath: Library\PackageCache\com.unity.ide.vscode@1.0.4\Editor\ProjectGeneration.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\Unity.com.unity.vscode.Editor.asmdef
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\Unity.com.unity.vscode.Editor.asmdef
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\Unity.com.unity.vscode.Editor.asmdef
+      originalPath: Library\PackageCache\com.unity.ide.vscode@1.0.4\Editor\Unity.com.unity.vscode.Editor.asmdef
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\Unity.com.unity.vscode.Editor.asmdef.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\Unity.com.unity.vscode.Editor.asmdef.meta
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\Unity.com.unity.vscode.Editor.asmdef.meta
+      originalPath: Library\PackageCache\com.unity.ide.vscode@1.0.4\Editor\Unity.com.unity.vscode.Editor.asmdef.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\Utility.cs
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\Utility.cs
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\Utility.cs
+      originalPath: Library\PackageCache\com.unity.ide.vscode@1.0.4\Editor\Utility.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\Utility.cs.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\Utility.cs.meta
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\Utility.cs.meta
+      originalPath: Library\PackageCache\com.unity.ide.vscode@1.0.4\Editor\Utility.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\VSCodeDiscovery.cs
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\VSCodeDiscovery.cs
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\VSCodeDiscovery.cs
+      originalPath: Library\PackageCache\com.unity.ide.vscode@1.0.4\Editor\VSCodeDiscovery.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\VSCodeDiscovery.cs.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\VSCodeDiscovery.cs.meta
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\VSCodeDiscovery.cs.meta
+      originalPath: Library\PackageCache\com.unity.ide.vscode@1.0.4\Editor\VSCodeDiscovery.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\VSCodeScriptEditor.cs
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\VSCodeScriptEditor.cs
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\VSCodeScriptEditor.cs
+      originalPath: Library\PackageCache\com.unity.ide.vscode@1.0.4\Editor\VSCodeScriptEditor.cs
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\VSCodeScriptEditor.cs.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\VSCodeScriptEditor.cs.meta
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.0.7\Editor\VSCodeScriptEditor.cs.meta
+      originalPath: Library\PackageCache\com.unity.ide.vscode@1.0.4\Editor\VSCodeScriptEditor.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.vscode@1.0.7\LICENSE.md
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.vscode@1.0.7\LICENSE.md
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.0.7\LICENSE.md
+      originalPath: Library\PackageCache\com.unity.ide.vscode@1.0.4\LICENSE.md
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.vscode@1.0.7\LICENSE.md.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.vscode@1.0.7\LICENSE.md.meta
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.0.7\LICENSE.md.meta
+      originalPath: Library\PackageCache\com.unity.ide.vscode@1.0.4\LICENSE.md.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.vscode@1.0.7\package.json
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.vscode@1.0.7\package.json
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.0.7\package.json
+      originalPath: Library\PackageCache\com.unity.ide.vscode@1.0.4\package.json
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\PackageCache\com.unity.ide.vscode@1.0.7\package.json.meta
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\PackageCache\com.unity.ide.vscode@1.0.7\package.json.meta
+      projectPath: Library\PackageCache\com.unity.ide.vscode@1.0.7\package.json.meta
+      originalPath: Library\PackageCache\com.unity.ide.vscode@1.0.4\package.json.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\ProjectSettings.asset
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ProjectSettings.asset
+      projectPath: Library\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\SceneVisibilityState.asset
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\SceneVisibilityState.asset
+      projectPath: Library\SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.pdb
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.pdb
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.pdb
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.pdb
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+      projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.Timeline.dll
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.Timeline.dll
+      projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.Timeline.pdb
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.Timeline.pdb
+      projectPath: Library\ScriptAssemblies\Unity.Timeline.pdb
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.VisualStudio.Editor.pdb
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.VisualStudio.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.VisualStudio.Editor.pdb
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.ugui.Editor.dll
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.ugui.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.ugui.Editor.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.ugui.Editor.pdb
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.ugui.Editor.pdb
+      projectPath: Library\ScriptAssemblies\Unity.ugui.Editor.pdb
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.ugui.dll
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.ugui.dll
+      projectPath: Library\ScriptAssemblies\Unity.ugui.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.ugui.pdb
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.ugui.pdb
+      projectPath: Library\ScriptAssemblies\Unity.ugui.pdb
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+      projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+      projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptMapper
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptMapper
+      projectPath: Library\ScriptMapper
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ShaderCache\EditorEncounteredVariants
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ShaderCache\EditorEncounteredVariants
+      projectPath: Library\ShaderCache\EditorEncounteredVariants
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\11f957-mainStage.json
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\StateCache\SceneView\11f957-mainStage.json
+      projectPath: Library\StateCache\SceneView\11f957-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\assetDatabase3
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\expandedItems
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\00\00000000000000004000000000000000
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\00\00000000000000004000000000000000
+      projectPath: Library\metadata\00\00000000000000004000000000000000
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\04\04cc958f40f350044a432c012f320305
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\04\04cc958f40f350044a432c012f320305
+      projectPath: Library\metadata\04\04cc958f40f350044a432c012f320305
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\05\056c6756691f8354e87b28fbb7cd7f3b
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\05\056c6756691f8354e87b28fbb7cd7f3b
+      projectPath: Library\metadata\05\056c6756691f8354e87b28fbb7cd7f3b
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\05\056c6756691f8354e87b28fbb7cd7f3b.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\05\056c6756691f8354e87b28fbb7cd7f3b.info
+      projectPath: Library\metadata\05\056c6756691f8354e87b28fbb7cd7f3b.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\06\06ae1baf5524b314fa65b173b9eca869
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\06\06ae1baf5524b314fa65b173b9eca869
+      projectPath: Library\metadata\06\06ae1baf5524b314fa65b173b9eca869
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\08\08b339ace3191aa409290fbb8bfe30b9
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\08\08b339ace3191aa409290fbb8bfe30b9
+      projectPath: Library\metadata\08\08b339ace3191aa409290fbb8bfe30b9
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\08\08b339ace3191aa409290fbb8bfe30b9.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\08\08b339ace3191aa409290fbb8bfe30b9.info
+      projectPath: Library\metadata\08\08b339ace3191aa409290fbb8bfe30b9.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\09\09e68d8a529a36340b752b99a1b70f83
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\09\09e68d8a529a36340b752b99a1b70f83
+      projectPath: Library\metadata\09\09e68d8a529a36340b752b99a1b70f83
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\0a\0a201adb1aac3b94284a413eb2e1ecd4
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\0a\0a201adb1aac3b94284a413eb2e1ecd4
+      projectPath: Library\metadata\0a\0a201adb1aac3b94284a413eb2e1ecd4
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\0c\0c04c8cb23b78e04492e0f310cdee93e
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\0c\0c04c8cb23b78e04492e0f310cdee93e
+      projectPath: Library\metadata\0c\0c04c8cb23b78e04492e0f310cdee93e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\0d\0de3343905095ab4c9d52addc012a937
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\0d\0de3343905095ab4c9d52addc012a937
+      projectPath: Library\metadata\0d\0de3343905095ab4c9d52addc012a937
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\0d\0de3343905095ab4c9d52addc012a937.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\0d\0de3343905095ab4c9d52addc012a937.info
+      projectPath: Library\metadata\0d\0de3343905095ab4c9d52addc012a937.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\0f\0f71aeefaa877ae4787e8356f25ad1e5
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\0f\0f71aeefaa877ae4787e8356f25ad1e5
+      projectPath: Library\metadata\0f\0f71aeefaa877ae4787e8356f25ad1e5
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\10\105515c1653548242b4fe973c0f375f7
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\10\105515c1653548242b4fe973c0f375f7
+      projectPath: Library\metadata\10\105515c1653548242b4fe973c0f375f7
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\10\1091bc2ad06e3234aac2b2fa2841c09d
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\10\1091bc2ad06e3234aac2b2fa2841c09d
+      projectPath: Library\metadata\10\1091bc2ad06e3234aac2b2fa2841c09d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\10\1098fc68a178ced428eb7fe625f54179
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\10\1098fc68a178ced428eb7fe625f54179
+      projectPath: Library\metadata\10\1098fc68a178ced428eb7fe625f54179
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\10\1098fc68a178ced428eb7fe625f54179.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\10\1098fc68a178ced428eb7fe625f54179.info
+      projectPath: Library\metadata\10\1098fc68a178ced428eb7fe625f54179.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\12\127023922adddf744b59fa7b0b0c3030
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\12\127023922adddf744b59fa7b0b0c3030
+      projectPath: Library\metadata\12\127023922adddf744b59fa7b0b0c3030
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\12\12c42068351bb084abde965d725b9887
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\12\12c42068351bb084abde965d725b9887
+      projectPath: Library\metadata\12\12c42068351bb084abde965d725b9887
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\13\1344c3c82d62a2a41a3576d8abb8e3ea
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\13\1344c3c82d62a2a41a3576d8abb8e3ea
+      projectPath: Library\metadata\13\1344c3c82d62a2a41a3576d8abb8e3ea
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\14\14427eecd0bccea468addc3492aaef57
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\14\14427eecd0bccea468addc3492aaef57
+      projectPath: Library\metadata\14\14427eecd0bccea468addc3492aaef57
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\16\16388ae022a89264b84107f0c1b44680
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\16\16388ae022a89264b84107f0c1b44680
+      projectPath: Library\metadata\16\16388ae022a89264b84107f0c1b44680
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\16\167329c8289a3a14a9e342df49fc4104
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\16\167329c8289a3a14a9e342df49fc4104
+      projectPath: Library\metadata\16\167329c8289a3a14a9e342df49fc4104
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\16\16fa2ad734f422245b86558310973ad1
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\16\16fa2ad734f422245b86558310973ad1
+      projectPath: Library\metadata\16\16fa2ad734f422245b86558310973ad1
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\19\1999349e7f492c947bb6eb70f624382e
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\19\1999349e7f492c947bb6eb70f624382e
+      projectPath: Library\metadata\19\1999349e7f492c947bb6eb70f624382e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\1b\1b393f6b29a9ee84c803af1ab4944b71
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\1b\1b393f6b29a9ee84c803af1ab4944b71
+      projectPath: Library\metadata\1b\1b393f6b29a9ee84c803af1ab4944b71
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\1b\1b393f6b29a9ee84c803af1ab4944b71.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\1b\1b393f6b29a9ee84c803af1ab4944b71.info
+      projectPath: Library\metadata\1b\1b393f6b29a9ee84c803af1ab4944b71.info
+      originalPath: Library\metadata\38\386a7b001094d3143b6abfff6aa652f8.info
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\metadata\1b\1bfe12aa306c0c74db4f4f1a1a0ae5ce
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\1b\1bfe12aa306c0c74db4f4f1a1a0ae5ce
+      projectPath: Library\metadata\1b\1bfe12aa306c0c74db4f4f1a1a0ae5ce
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\1b\1bfe12aa306c0c74db4f4f1a1a0ae5ce.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\1b\1bfe12aa306c0c74db4f4f1a1a0ae5ce.info
+      projectPath: Library\metadata\1b\1bfe12aa306c0c74db4f4f1a1a0ae5ce.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\22\227449ebe9425db44a08198392354377
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\22\227449ebe9425db44a08198392354377
+      projectPath: Library\metadata\22\227449ebe9425db44a08198392354377
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\metadata\22\22899211c24eeb248b22704499dd108f
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\22\22899211c24eeb248b22704499dd108f
+      projectPath: Library\metadata\22\22899211c24eeb248b22704499dd108f
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\23\239dd6edc8e5cd14585c03e09e86a747
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\23\239dd6edc8e5cd14585c03e09e86a747
+      projectPath: Library\metadata\23\239dd6edc8e5cd14585c03e09e86a747
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\24\241898342fd2d2d478d8d74aff380666
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\24\241898342fd2d2d478d8d74aff380666
+      projectPath: Library\metadata\24\241898342fd2d2d478d8d74aff380666
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\24\241898342fd2d2d478d8d74aff380666.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\24\241898342fd2d2d478d8d74aff380666.info
+      projectPath: Library\metadata\24\241898342fd2d2d478d8d74aff380666.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\27\27ed3e221887b3544bd9d6505d4a789f
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\27\27ed3e221887b3544bd9d6505d4a789f
+      projectPath: Library\metadata\27\27ed3e221887b3544bd9d6505d4a789f
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\28\28669e4aa09773647a980915d68714fb
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\28\28669e4aa09773647a980915d68714fb
+      projectPath: Library\metadata\28\28669e4aa09773647a980915d68714fb
+      originalPath: Library\metadata\9e\9ea68dde30c2924499d4a0a3e9fffcc3
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\metadata\28\28669e4aa09773647a980915d68714fb.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\28\28669e4aa09773647a980915d68714fb.info
+      projectPath: Library\metadata\28\28669e4aa09773647a980915d68714fb.info
+      originalPath: Library\metadata\6f\6ff776aa59bd77e4eb567d735b13f166.info
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\metadata\28\28e8b16370ff78c4faca58757271619f
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\28\28e8b16370ff78c4faca58757271619f
+      projectPath: Library\metadata\28\28e8b16370ff78c4faca58757271619f
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\29\29bbda0803e75b34a9ebd8c1f2c99c80
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\29\29bbda0803e75b34a9ebd8c1f2c99c80
+      projectPath: Library\metadata\29\29bbda0803e75b34a9ebd8c1f2c99c80
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\29\29bf1d4ec1012bc45967ce95b729b8b3
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\29\29bf1d4ec1012bc45967ce95b729b8b3
+      projectPath: Library\metadata\29\29bf1d4ec1012bc45967ce95b729b8b3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\2a\2a28c2fab6b1bb745a844ef6b908e7ee
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\2a\2a28c2fab6b1bb745a844ef6b908e7ee
+      projectPath: Library\metadata\2a\2a28c2fab6b1bb745a844ef6b908e7ee
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\2a\2aaada8a8257b1c4ea4a03180c627f53
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\2a\2aaada8a8257b1c4ea4a03180c627f53
+      projectPath: Library\metadata\2a\2aaada8a8257b1c4ea4a03180c627f53
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\metadata\2a\2aff4fada0516c64a8537a20bfe1b699
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\2a\2aff4fada0516c64a8537a20bfe1b699
+      projectPath: Library\metadata\2a\2aff4fada0516c64a8537a20bfe1b699
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\2a\2aff4fada0516c64a8537a20bfe1b699.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\2a\2aff4fada0516c64a8537a20bfe1b699.info
+      projectPath: Library\metadata\2a\2aff4fada0516c64a8537a20bfe1b699.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\2b\2bafac87e7f4b9b418d9448d219b01ab
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\2b\2bafac87e7f4b9b418d9448d219b01ab
+      projectPath: Library\metadata\2b\2bafac87e7f4b9b418d9448d219b01ab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\2b\2bafac87e7f4b9b418d9448d219b01ab.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\2b\2bafac87e7f4b9b418d9448d219b01ab.info
+      projectPath: Library\metadata\2b\2bafac87e7f4b9b418d9448d219b01ab.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\2b\2bc8a181dfd9de24388de89bb8db7713
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\2b\2bc8a181dfd9de24388de89bb8db7713
+      projectPath: Library\metadata\2b\2bc8a181dfd9de24388de89bb8db7713
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\2c\2c03ae9aa36a4fd44a983831f44654be
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\2c\2c03ae9aa36a4fd44a983831f44654be
+      projectPath: Library\metadata\2c\2c03ae9aa36a4fd44a983831f44654be
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\2d\2d8485e4e3a2bcb429fc32900ca26d9e
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\2d\2d8485e4e3a2bcb429fc32900ca26d9e
+      projectPath: Library\metadata\2d\2d8485e4e3a2bcb429fc32900ca26d9e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\2d\2d9b6ff056b6f484ba6500aa8e06bcf3
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\2d\2d9b6ff056b6f484ba6500aa8e06bcf3
+      projectPath: Library\metadata\2d\2d9b6ff056b6f484ba6500aa8e06bcf3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\2f\2fa2cf7de51b0d34d9dce3747b72e49d
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\2f\2fa2cf7de51b0d34d9dce3747b72e49d
+      projectPath: Library\metadata\2f\2fa2cf7de51b0d34d9dce3747b72e49d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\2f\2fafe2cfe61f6974895a912c3755e8f1
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\2f\2fafe2cfe61f6974895a912c3755e8f1
+      projectPath: Library\metadata\2f\2fafe2cfe61f6974895a912c3755e8f1
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\30\305ca32be1aa5504aa182f583895dfe4
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\30\305ca32be1aa5504aa182f583895dfe4
+      projectPath: Library\metadata\30\305ca32be1aa5504aa182f583895dfe4
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\30\30f25a61610ff0543ade01842d33573a
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\30\30f25a61610ff0543ade01842d33573a
+      projectPath: Library\metadata\30\30f25a61610ff0543ade01842d33573a
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\31\3174898fbcdf12448963cdb5f5b60a33
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\31\3174898fbcdf12448963cdb5f5b60a33
+      projectPath: Library\metadata\31\3174898fbcdf12448963cdb5f5b60a33
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\32\32e2186f4598cff489784aae586f2215
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\32\32e2186f4598cff489784aae586f2215
+      projectPath: Library\metadata\32\32e2186f4598cff489784aae586f2215
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\34\343deaaf83e0cee4ca978e7df0b80d21
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\34\343deaaf83e0cee4ca978e7df0b80d21
+      projectPath: Library\metadata\34\343deaaf83e0cee4ca978e7df0b80d21
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\34\343deaaf83e0cee4ca978e7df0b80d21.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\34\343deaaf83e0cee4ca978e7df0b80d21.info
+      projectPath: Library\metadata\34\343deaaf83e0cee4ca978e7df0b80d21.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\37\37472f5179ca2004489ac901814cdbc3
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\37\37472f5179ca2004489ac901814cdbc3
+      projectPath: Library\metadata\37\37472f5179ca2004489ac901814cdbc3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\38\384ea3a769d6ffd44bcc7f03793e3adc
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\38\384ea3a769d6ffd44bcc7f03793e3adc
+      projectPath: Library\metadata\38\384ea3a769d6ffd44bcc7f03793e3adc
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\38\38d7d4ae5ba301c48a9c37d530dff736
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\38\38d7d4ae5ba301c48a9c37d530dff736
+      projectPath: Library\metadata\38\38d7d4ae5ba301c48a9c37d530dff736
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\3a\3a5038547af7c7f46bd90a015862e0b3
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\3a\3a5038547af7c7f46bd90a015862e0b3
+      projectPath: Library\metadata\3a\3a5038547af7c7f46bd90a015862e0b3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\3a\3a9781db4804a9945b9883f3a7c46d45
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\3a\3a9781db4804a9945b9883f3a7c46d45
+      projectPath: Library\metadata\3a\3a9781db4804a9945b9883f3a7c46d45
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\3b\3b0299838696e2c4f9e31bdc0c8757f9
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\3b\3b0299838696e2c4f9e31bdc0c8757f9
+      projectPath: Library\metadata\3b\3b0299838696e2c4f9e31bdc0c8757f9
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\3c\3c01b61b3a6887c49a15276fd38be918
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\3c\3c01b61b3a6887c49a15276fd38be918
+      projectPath: Library\metadata\3c\3c01b61b3a6887c49a15276fd38be918
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\3e\3e99141cd5dbef844a4338bb87930b89
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\3e\3e99141cd5dbef844a4338bb87930b89
+      projectPath: Library\metadata\3e\3e99141cd5dbef844a4338bb87930b89
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\3f\3f683d99f24875748a6656966ca9cea0
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\3f\3f683d99f24875748a6656966ca9cea0
+      projectPath: Library\metadata\3f\3f683d99f24875748a6656966ca9cea0
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\40\4009bdfbd908ccf41a101be04ed6567d
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\40\4009bdfbd908ccf41a101be04ed6567d
+      projectPath: Library\metadata\40\4009bdfbd908ccf41a101be04ed6567d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\40\4068e97704a16794ea218ba560cdc1e9
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\40\4068e97704a16794ea218ba560cdc1e9
+      projectPath: Library\metadata\40\4068e97704a16794ea218ba560cdc1e9
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\40\40c83ba6a1a64cb4baac27028dd1acc1
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\40\40c83ba6a1a64cb4baac27028dd1acc1
+      projectPath: Library\metadata\40\40c83ba6a1a64cb4baac27028dd1acc1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\40\40c83ba6a1a64cb4baac27028dd1acc1.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\40\40c83ba6a1a64cb4baac27028dd1acc1.info
+      projectPath: Library\metadata\40\40c83ba6a1a64cb4baac27028dd1acc1.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\43\43b1467da3d29ae4597a733828cdd84a
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\43\43b1467da3d29ae4597a733828cdd84a
+      projectPath: Library\metadata\43\43b1467da3d29ae4597a733828cdd84a
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\43\43b72437d9bb4d842b70e9251032ac80
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\43\43b72437d9bb4d842b70e9251032ac80
+      projectPath: Library\metadata\43\43b72437d9bb4d842b70e9251032ac80
+      originalPath: Library\metadata\6f\6ff776aa59bd77e4eb567d735b13f166
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\metadata\43\43b72437d9bb4d842b70e9251032ac80.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\43\43b72437d9bb4d842b70e9251032ac80.info
+      projectPath: Library\metadata\43\43b72437d9bb4d842b70e9251032ac80.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\45\4584db2acba045742a16942983e7fb96
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\45\4584db2acba045742a16942983e7fb96
+      projectPath: Library\metadata\45\4584db2acba045742a16942983e7fb96
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\46\46646a5562f14984690c85ee7b946bc9
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\46\46646a5562f14984690c85ee7b946bc9
+      projectPath: Library\metadata\46\46646a5562f14984690c85ee7b946bc9
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\46\468e1bfc887161e4196f33e942fc3199
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\46\468e1bfc887161e4196f33e942fc3199
+      projectPath: Library\metadata\46\468e1bfc887161e4196f33e942fc3199
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\48\48967a2d5427ac2489cc0ea61da5f1a0
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\48\48967a2d5427ac2489cc0ea61da5f1a0
+      projectPath: Library\metadata\48\48967a2d5427ac2489cc0ea61da5f1a0
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\49\495418ee53486f643b24accccc9269f1
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\49\495418ee53486f643b24accccc9269f1
+      projectPath: Library\metadata\49\495418ee53486f643b24accccc9269f1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\49\495418ee53486f643b24accccc9269f1.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\49\495418ee53486f643b24accccc9269f1.info
+      projectPath: Library\metadata\49\495418ee53486f643b24accccc9269f1.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\4a\4a0757ee0236f39489520769ae710288
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\4a\4a0757ee0236f39489520769ae710288
+      projectPath: Library\metadata\4a\4a0757ee0236f39489520769ae710288
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\4a\4ad09461bf994e54da846f726a23118e
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\4a\4ad09461bf994e54da846f726a23118e
+      projectPath: Library\metadata\4a\4ad09461bf994e54da846f726a23118e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+      projectPath: Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\4c\4c6f60d349ea37048af03504fc872f33
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\4c\4c6f60d349ea37048af03504fc872f33
+      projectPath: Library\metadata\4c\4c6f60d349ea37048af03504fc872f33
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\4c\4cfe5ade9a1375e40aed87618b92bd12
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\4c\4cfe5ade9a1375e40aed87618b92bd12
+      projectPath: Library\metadata\4c\4cfe5ade9a1375e40aed87618b92bd12
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\4d\4d3d51749e989f747b2674e0b4d9b3d7
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\4d\4d3d51749e989f747b2674e0b4d9b3d7
+      projectPath: Library\metadata\4d\4d3d51749e989f747b2674e0b4d9b3d7
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\4d\4ddcdc3816429494a8bea67e973875f7
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\4d\4ddcdc3816429494a8bea67e973875f7
+      projectPath: Library\metadata\4d\4ddcdc3816429494a8bea67e973875f7
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\4f\4f9ac6e545d53f94b9f09c85b9576f36
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\4f\4f9ac6e545d53f94b9f09c85b9576f36
+      projectPath: Library\metadata\4f\4f9ac6e545d53f94b9f09c85b9576f36
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\51\51797d68d3132bb419217a229e09fc47
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\51\51797d68d3132bb419217a229e09fc47
+      projectPath: Library\metadata\51\51797d68d3132bb419217a229e09fc47
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\54\5472815444de2ce45bf2053a4af04b9d
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\54\5472815444de2ce45bf2053a4af04b9d
+      projectPath: Library\metadata\54\5472815444de2ce45bf2053a4af04b9d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\56\5673d7b11cb9ad04eb2368068b720c17
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\56\5673d7b11cb9ad04eb2368068b720c17
+      projectPath: Library\metadata\56\5673d7b11cb9ad04eb2368068b720c17
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\57\57ff740bce4ab0c498ada374a8ca1dc0
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\57\57ff740bce4ab0c498ada374a8ca1dc0
+      projectPath: Library\metadata\57\57ff740bce4ab0c498ada374a8ca1dc0
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\58\58628227479c34542ac8c5193ccced84
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\58\58628227479c34542ac8c5193ccced84
+      projectPath: Library\metadata\58\58628227479c34542ac8c5193ccced84
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\58\58eb69fc39be3d040b984b4498a820bb
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\58\58eb69fc39be3d040b984b4498a820bb
+      projectPath: Library\metadata\58\58eb69fc39be3d040b984b4498a820bb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\5a\5a46ad7e320e2ba448b47d5994ea7f26
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\5a\5a46ad7e320e2ba448b47d5994ea7f26
+      projectPath: Library\metadata\5a\5a46ad7e320e2ba448b47d5994ea7f26
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\5a\5a7f0d89a47f18c41b6ddf60dfae1bde
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\5a\5a7f0d89a47f18c41b6ddf60dfae1bde
+      projectPath: Library\metadata\5a\5a7f0d89a47f18c41b6ddf60dfae1bde
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\5b\5b00473355622524394628f7ec51808d
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\5b\5b00473355622524394628f7ec51808d
+      projectPath: Library\metadata\5b\5b00473355622524394628f7ec51808d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\5b\5ba130fc1db953547a50bcf5c162a3e8
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\5b\5ba130fc1db953547a50bcf5c162a3e8
+      projectPath: Library\metadata\5b\5ba130fc1db953547a50bcf5c162a3e8
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\5c\5c004b1354944164fb076276c289afc1
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\5c\5c004b1354944164fb076276c289afc1
+      projectPath: Library\metadata\5c\5c004b1354944164fb076276c289afc1
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\5c\5c004b1354944164fb076276c289afc1.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\5c\5c004b1354944164fb076276c289afc1.info
+      projectPath: Library\metadata\5c\5c004b1354944164fb076276c289afc1.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\5d\5da88f348abcbd94585671a69c672781
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\5d\5da88f348abcbd94585671a69c672781
+      projectPath: Library\metadata\5d\5da88f348abcbd94585671a69c672781
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\5d\5da88f348abcbd94585671a69c672781.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\5d\5da88f348abcbd94585671a69c672781.info
+      projectPath: Library\metadata\5d\5da88f348abcbd94585671a69c672781.info
+      originalPath: Library\metadata\9e\9ea68dde30c2924499d4a0a3e9fffcc3.info
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\metadata\5f\5f603f10b9ec26841b2ecb6003dc1d0e
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\5f\5f603f10b9ec26841b2ecb6003dc1d0e
+      projectPath: Library\metadata\5f\5f603f10b9ec26841b2ecb6003dc1d0e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\5f\5f7201a12d95ffc409449d95f23cf332
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\5f\5f7201a12d95ffc409449d95f23cf332
+      projectPath: Library\metadata\5f\5f7201a12d95ffc409449d95f23cf332
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\63\63f2caa33e79582448112b2e286d576d
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\63\63f2caa33e79582448112b2e286d576d
+      projectPath: Library\metadata\63\63f2caa33e79582448112b2e286d576d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\66\66c95bb3c74257f41bae2622511dc02d
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\66\66c95bb3c74257f41bae2622511dc02d
+      projectPath: Library\metadata\66\66c95bb3c74257f41bae2622511dc02d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\67\67e9c6cf60c57a54f9f4db1bc33fd2e3
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\67\67e9c6cf60c57a54f9f4db1bc33fd2e3
+      projectPath: Library\metadata\67\67e9c6cf60c57a54f9f4db1bc33fd2e3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\67\67ffa6242c6ee9246a64038878f96adc
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\67\67ffa6242c6ee9246a64038878f96adc
+      projectPath: Library\metadata\67\67ffa6242c6ee9246a64038878f96adc
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\6b\6b38a6882b80b1c4dbcca4bc844d7b9c
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\6b\6b38a6882b80b1c4dbcca4bc844d7b9c
+      projectPath: Library\metadata\6b\6b38a6882b80b1c4dbcca4bc844d7b9c
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\6c\6c61ba0c209bcc74f83e3650039ebdf9
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\6c\6c61ba0c209bcc74f83e3650039ebdf9
+      projectPath: Library\metadata\6c\6c61ba0c209bcc74f83e3650039ebdf9
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\6d\6d768b1bb52e2c64ba818933dbdd8452
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\6d\6d768b1bb52e2c64ba818933dbdd8452
+      projectPath: Library\metadata\6d\6d768b1bb52e2c64ba818933dbdd8452
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\6d\6d8cd2a9c493e7648ac755cdbe03cf83
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\6d\6d8cd2a9c493e7648ac755cdbe03cf83
+      projectPath: Library\metadata\6d\6d8cd2a9c493e7648ac755cdbe03cf83
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\6d\6d8cd2a9c493e7648ac755cdbe03cf83.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\6d\6d8cd2a9c493e7648ac755cdbe03cf83.info
+      projectPath: Library\metadata\6d\6d8cd2a9c493e7648ac755cdbe03cf83.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\6e\6e6ff0d919800e24484d21950e3d851f
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\6e\6e6ff0d919800e24484d21950e3d851f
+      projectPath: Library\metadata\6e\6e6ff0d919800e24484d21950e3d851f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\6e\6e6ff0d919800e24484d21950e3d851f.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\6e\6e6ff0d919800e24484d21950e3d851f.info
+      projectPath: Library\metadata\6e\6e6ff0d919800e24484d21950e3d851f.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\6f\6f515f8ecd3b6a546b90abaae2553f99
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\6f\6f515f8ecd3b6a546b90abaae2553f99
+      projectPath: Library\metadata\6f\6f515f8ecd3b6a546b90abaae2553f99
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\70\70b265ed18dc14041bedc0263d4578ef
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\70\70b265ed18dc14041bedc0263d4578ef
+      projectPath: Library\metadata\70\70b265ed18dc14041bedc0263d4578ef
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\70\70e2efe12f8265b4dbd56a342b4db0e7
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\70\70e2efe12f8265b4dbd56a342b4db0e7
+      projectPath: Library\metadata\70\70e2efe12f8265b4dbd56a342b4db0e7
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\71\71b11355001648444b41d17fd36c150d
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\71\71b11355001648444b41d17fd36c150d
+      projectPath: Library\metadata\71\71b11355001648444b41d17fd36c150d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\71\71b11355001648444b41d17fd36c150d.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\71\71b11355001648444b41d17fd36c150d.info
+      projectPath: Library\metadata\71\71b11355001648444b41d17fd36c150d.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\71\71bb46b59a9a7a346bbab1e185c723df
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\71\71bb46b59a9a7a346bbab1e185c723df
+      projectPath: Library\metadata\71\71bb46b59a9a7a346bbab1e185c723df
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\71\71bb46b59a9a7a346bbab1e185c723df.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\71\71bb46b59a9a7a346bbab1e185c723df.info
+      projectPath: Library\metadata\71\71bb46b59a9a7a346bbab1e185c723df.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\74\742654cad2425334696ba6ed4495cfef
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\74\742654cad2425334696ba6ed4495cfef
+      projectPath: Library\metadata\74\742654cad2425334696ba6ed4495cfef
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\75\7509f5cce72b80f40873b017a94edb1e
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\75\7509f5cce72b80f40873b017a94edb1e
+      projectPath: Library\metadata\75\7509f5cce72b80f40873b017a94edb1e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\75\7509f5cce72b80f40873b017a94edb1e.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\75\7509f5cce72b80f40873b017a94edb1e.info
+      projectPath: Library\metadata\75\7509f5cce72b80f40873b017a94edb1e.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\77\77786fcb91a3fcd41a4b836be1f0276c
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\77\77786fcb91a3fcd41a4b836be1f0276c
+      projectPath: Library\metadata\77\77786fcb91a3fcd41a4b836be1f0276c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\77\77786fcb91a3fcd41a4b836be1f0276c.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\77\77786fcb91a3fcd41a4b836be1f0276c.info
+      projectPath: Library\metadata\77\77786fcb91a3fcd41a4b836be1f0276c.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\7a\7a24ec4b5c3e08e47bf50c8298c1fe0d
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\7a\7a24ec4b5c3e08e47bf50c8298c1fe0d
+      projectPath: Library\metadata\7a\7a24ec4b5c3e08e47bf50c8298c1fe0d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\7a\7a892c920c8ad2848b469ec9579c5219
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\7a\7a892c920c8ad2848b469ec9579c5219
+      projectPath: Library\metadata\7a\7a892c920c8ad2848b469ec9579c5219
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\7a\7a98125502f715b4b83cfb77b434e436
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\7a\7a98125502f715b4b83cfb77b434e436
+      projectPath: Library\metadata\7a\7a98125502f715b4b83cfb77b434e436
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\7c\7c04f0dfa9243c04681a55d90d3ff3fc
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\7c\7c04f0dfa9243c04681a55d90d3ff3fc
+      projectPath: Library\metadata\7c\7c04f0dfa9243c04681a55d90d3ff3fc
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\7c\7c04f0dfa9243c04681a55d90d3ff3fc.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\7c\7c04f0dfa9243c04681a55d90d3ff3fc.info
+      projectPath: Library\metadata\7c\7c04f0dfa9243c04681a55d90d3ff3fc.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\7c\7c6295db74da28645bf49db58b7c9c65
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\7c\7c6295db74da28645bf49db58b7c9c65
+      projectPath: Library\metadata\7c\7c6295db74da28645bf49db58b7c9c65
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\7e\7e2656e167a517b4d8552ba38f4b7bbe
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\7e\7e2656e167a517b4d8552ba38f4b7bbe
+      projectPath: Library\metadata\7e\7e2656e167a517b4d8552ba38f4b7bbe
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\7e\7e7768b969aa41c4d848a1ee4a29b53c
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\7e\7e7768b969aa41c4d848a1ee4a29b53c
+      projectPath: Library\metadata\7e\7e7768b969aa41c4d848a1ee4a29b53c
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\7f\7f27709c942d91541be1fd6aa5cb3d78
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\7f\7f27709c942d91541be1fd6aa5cb3d78
+      projectPath: Library\metadata\7f\7f27709c942d91541be1fd6aa5cb3d78
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\83\8313ea704470a264295ec9e09aec6ebc
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\83\8313ea704470a264295ec9e09aec6ebc
+      projectPath: Library\metadata\83\8313ea704470a264295ec9e09aec6ebc
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\85\850af9f3bf6d14143baf2ecfbf25db52
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\85\850af9f3bf6d14143baf2ecfbf25db52
+      projectPath: Library\metadata\85\850af9f3bf6d14143baf2ecfbf25db52
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\85\853edc343b78a7c4c81cbb3851d48c0a
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\85\853edc343b78a7c4c81cbb3851d48c0a
+      projectPath: Library\metadata\85\853edc343b78a7c4c81cbb3851d48c0a
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\85\85f3a978696fd26438b3df20ad1eb853
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\85\85f3a978696fd26438b3df20ad1eb853
+      projectPath: Library\metadata\85\85f3a978696fd26438b3df20ad1eb853
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\85\85f3a978696fd26438b3df20ad1eb853.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\85\85f3a978696fd26438b3df20ad1eb853.info
+      projectPath: Library\metadata\85\85f3a978696fd26438b3df20ad1eb853.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\86\8620e97e7e9859049934889a52248435
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\86\8620e97e7e9859049934889a52248435
+      projectPath: Library\metadata\86\8620e97e7e9859049934889a52248435
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\86\8645aa9c3c74fb34ba9499e14fb332b5
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\86\8645aa9c3c74fb34ba9499e14fb332b5
+      projectPath: Library\metadata\86\8645aa9c3c74fb34ba9499e14fb332b5
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\86\86cacab070a0a46e99aedb596a32c4fe
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\86\86cacab070a0a46e99aedb596a32c4fe
+      projectPath: Library\metadata\86\86cacab070a0a46e99aedb596a32c4fe
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\88\884ddc13ac927d04194177c2fa4a9270
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\88\884ddc13ac927d04194177c2fa4a9270
+      projectPath: Library\metadata\88\884ddc13ac927d04194177c2fa4a9270
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\8b\8b5e0f8599da083488da675fc79c5c66
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\8b\8b5e0f8599da083488da675fc79c5c66
+      projectPath: Library\metadata\8b\8b5e0f8599da083488da675fc79c5c66
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\8b\8b7d06780fca6fc4384580d3ebed9219
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\8b\8b7d06780fca6fc4384580d3ebed9219
+      projectPath: Library\metadata\8b\8b7d06780fca6fc4384580d3ebed9219
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\8d\8d34348f8b97a334291f5cf31adc5d67
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\8d\8d34348f8b97a334291f5cf31adc5d67
+      projectPath: Library\metadata\8d\8d34348f8b97a334291f5cf31adc5d67
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\8d\8df45492ff0815a488744d61efcecba7
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\8d\8df45492ff0815a488744d61efcecba7
+      projectPath: Library\metadata\8d\8df45492ff0815a488744d61efcecba7
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\8d\8df45492ff0815a488744d61efcecba7.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\8d\8df45492ff0815a488744d61efcecba7.info
+      projectPath: Library\metadata\8d\8df45492ff0815a488744d61efcecba7.info
+      originalPath: Library\metadata\22\227449ebe9425db44a08198392354377.info
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\metadata\8e\8e78f8a8575e4a04f8337a54e241cdc5
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\8e\8e78f8a8575e4a04f8337a54e241cdc5
+      projectPath: Library\metadata\8e\8e78f8a8575e4a04f8337a54e241cdc5
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\8f\8f74c99a65464bb4b86ccb314ee95a7f
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\8f\8f74c99a65464bb4b86ccb314ee95a7f
+      projectPath: Library\metadata\8f\8f74c99a65464bb4b86ccb314ee95a7f
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\8f\8fc2060ad7ebaac4489a9c7b13dd747e
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\8f\8fc2060ad7ebaac4489a9c7b13dd747e
+      projectPath: Library\metadata\8f\8fc2060ad7ebaac4489a9c7b13dd747e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\90\9085046f02f69544eb97fd06b6048fe2
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\90\9085046f02f69544eb97fd06b6048fe2
+      projectPath: Library\metadata\90\9085046f02f69544eb97fd06b6048fe2
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\91\9129183a42052cd43b9c284d6dbd541e
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\91\9129183a42052cd43b9c284d6dbd541e
+      projectPath: Library\metadata\91\9129183a42052cd43b9c284d6dbd541e
+      originalPath: Library\metadata\38\386a7b001094d3143b6abfff6aa652f8
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\metadata\91\9129183a42052cd43b9c284d6dbd541e.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\91\9129183a42052cd43b9c284d6dbd541e.info
+      projectPath: Library\metadata\91\9129183a42052cd43b9c284d6dbd541e.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\91\914534429f2346746b6ecaea8aad0bb2
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\91\914534429f2346746b6ecaea8aad0bb2
+      projectPath: Library\metadata\91\914534429f2346746b6ecaea8aad0bb2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\91\914534429f2346746b6ecaea8aad0bb2.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\91\914534429f2346746b6ecaea8aad0bb2.info
+      projectPath: Library\metadata\91\914534429f2346746b6ecaea8aad0bb2.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\91\919d97c1a707113409177d498d31cf51
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\91\919d97c1a707113409177d498d31cf51
+      projectPath: Library\metadata\91\919d97c1a707113409177d498d31cf51
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\93\93511675f113bf744a830b91761ead82
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\93\93511675f113bf744a830b91761ead82
+      projectPath: Library\metadata\93\93511675f113bf744a830b91761ead82
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\93\936bea4b2545c4a4fad2e623b0f6371f
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\93\936bea4b2545c4a4fad2e623b0f6371f
+      projectPath: Library\metadata\93\936bea4b2545c4a4fad2e623b0f6371f
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\93\93effba7cf7f3824ab0bd048a27a9c02
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\93\93effba7cf7f3824ab0bd048a27a9c02
+      projectPath: Library\metadata\93\93effba7cf7f3824ab0bd048a27a9c02
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\97\970e7735a0864fd40842a36d053d08fe
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\97\970e7735a0864fd40842a36d053d08fe
+      projectPath: Library\metadata\97\970e7735a0864fd40842a36d053d08fe
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\97\9713795381722eb43b623dffba25d115
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\97\9713795381722eb43b623dffba25d115
+      projectPath: Library\metadata\97\9713795381722eb43b623dffba25d115
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\97\97de1f11b5a5dbf41baa1b0bc8ab989e
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\97\97de1f11b5a5dbf41baa1b0bc8ab989e
+      projectPath: Library\metadata\97\97de1f11b5a5dbf41baa1b0bc8ab989e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\98\985eed4bc2fbee941b761b8816d9055d
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\98\985eed4bc2fbee941b761b8816d9055d
+      projectPath: Library\metadata\98\985eed4bc2fbee941b761b8816d9055d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\98\98d14ab1acf42df4f88a0561822ac807
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\98\98d14ab1acf42df4f88a0561822ac807
+      projectPath: Library\metadata\98\98d14ab1acf42df4f88a0561822ac807
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\98\98d14ab1acf42df4f88a0561822ac807.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\98\98d14ab1acf42df4f88a0561822ac807.info
+      projectPath: Library\metadata\98\98d14ab1acf42df4f88a0561822ac807.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\9a\9a3557da07c729b4eb774b8e30e157a4
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\9a\9a3557da07c729b4eb774b8e30e157a4
+      projectPath: Library\metadata\9a\9a3557da07c729b4eb774b8e30e157a4
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\9a\9a6069768ff3d8043a79348813f86cba
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\9a\9a6069768ff3d8043a79348813f86cba
+      projectPath: Library\metadata\9a\9a6069768ff3d8043a79348813f86cba
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\9b\9b4f21acd14fdd445b37b76f6587539e
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\9b\9b4f21acd14fdd445b37b76f6587539e
+      projectPath: Library\metadata\9b\9b4f21acd14fdd445b37b76f6587539e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\9b\9bc2b69915879416f8df18971dc98e2e
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\9b\9bc2b69915879416f8df18971dc98e2e
+      projectPath: Library\metadata\9b\9bc2b69915879416f8df18971dc98e2e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\9b\9bedab6f9886aee42b33e424bffdb640
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\9b\9bedab6f9886aee42b33e424bffdb640
+      projectPath: Library\metadata\9b\9bedab6f9886aee42b33e424bffdb640
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\9d\9d816a6ab06c6834480f5f45f440e287
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\9d\9d816a6ab06c6834480f5f45f440e287
+      projectPath: Library\metadata\9d\9d816a6ab06c6834480f5f45f440e287
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\9f\9f1e0a9724743a74794256ebe791fd41
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\9f\9f1e0a9724743a74794256ebe791fd41
+      projectPath: Library\metadata\9f\9f1e0a9724743a74794256ebe791fd41
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\a5\a598580d0cfc7224ebed8d2b627d9e00
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\a5\a598580d0cfc7224ebed8d2b627d9e00
+      projectPath: Library\metadata\a5\a598580d0cfc7224ebed8d2b627d9e00
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\a7\a73ebdb6c1006364f8c7b37dc53d8ab7
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\a7\a73ebdb6c1006364f8c7b37dc53d8ab7
+      projectPath: Library\metadata\a7\a73ebdb6c1006364f8c7b37dc53d8ab7
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\a8\a809a4b50addbf44b9023b5e7f9fd4d2
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\a8\a809a4b50addbf44b9023b5e7f9fd4d2
+      projectPath: Library\metadata\a8\a809a4b50addbf44b9023b5e7f9fd4d2
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\a8\a84f8a2cae54acb4599de611269e855e
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\a8\a84f8a2cae54acb4599de611269e855e
+      projectPath: Library\metadata\a8\a84f8a2cae54acb4599de611269e855e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\a9\a956e5803e95df349bd35832492d4014
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\a9\a956e5803e95df349bd35832492d4014
+      projectPath: Library\metadata\a9\a956e5803e95df349bd35832492d4014
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\aa\aa14b70e6a58c5b4fa6663623e3dca91
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\aa\aa14b70e6a58c5b4fa6663623e3dca91
+      projectPath: Library\metadata\aa\aa14b70e6a58c5b4fa6663623e3dca91
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\aa\aa93b0dc5d78d0349965b57b6ae84e7d
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\aa\aa93b0dc5d78d0349965b57b6ae84e7d
+      projectPath: Library\metadata\aa\aa93b0dc5d78d0349965b57b6ae84e7d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ab\ab4bbc8deeeb005438fa5034a454be7b
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\ab\ab4bbc8deeeb005438fa5034a454be7b
+      projectPath: Library\metadata\ab\ab4bbc8deeeb005438fa5034a454be7b
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ab\ab93e1a81defc3243a6e9cd0df3cb443
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\ab\ab93e1a81defc3243a6e9cd0df3cb443
+      projectPath: Library\metadata\ab\ab93e1a81defc3243a6e9cd0df3cb443
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ac\ac3f13489022aa34d861a0320a6917b9
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\ac\ac3f13489022aa34d861a0320a6917b9
+      projectPath: Library\metadata\ac\ac3f13489022aa34d861a0320a6917b9
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ac\acfa3573efc38c844be021fdaa8cf8a6
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\ac\acfa3573efc38c844be021fdaa8cf8a6
+      projectPath: Library\metadata\ac\acfa3573efc38c844be021fdaa8cf8a6
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ad\ad70ff8d98b257540b683737743828cb
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\ad\ad70ff8d98b257540b683737743828cb
+      projectPath: Library\metadata\ad\ad70ff8d98b257540b683737743828cb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ae\ae242449e9279d44789513b922d3178a
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\ae\ae242449e9279d44789513b922d3178a
+      projectPath: Library\metadata\ae\ae242449e9279d44789513b922d3178a
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\af\af30a361ab68260438b6ec3fb7e64500
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\af\af30a361ab68260438b6ec3fb7e64500
+      projectPath: Library\metadata\af\af30a361ab68260438b6ec3fb7e64500
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\af\afeb55855d7a63b45ba6f8bd97599202
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\af\afeb55855d7a63b45ba6f8bd97599202
+      projectPath: Library\metadata\af\afeb55855d7a63b45ba6f8bd97599202
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\b1\b124f0b8ca43e6e46bdc0322fad15ea3
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\b1\b124f0b8ca43e6e46bdc0322fad15ea3
+      projectPath: Library\metadata\b1\b124f0b8ca43e6e46bdc0322fad15ea3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\b1\b1c7f0c50b0c1d7458d2d0a50ebfefef
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\b1\b1c7f0c50b0c1d7458d2d0a50ebfefef
+      projectPath: Library\metadata\b1\b1c7f0c50b0c1d7458d2d0a50ebfefef
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\b3\b33687803b08daf418e5315de17658b8
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\b3\b33687803b08daf418e5315de17658b8
+      projectPath: Library\metadata\b3\b33687803b08daf418e5315de17658b8
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\b3\b33cda1f9ac0ad7419bbe04d9cc4c8a5
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\b3\b33cda1f9ac0ad7419bbe04d9cc4c8a5
+      projectPath: Library\metadata\b3\b33cda1f9ac0ad7419bbe04d9cc4c8a5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\b3\b33cda1f9ac0ad7419bbe04d9cc4c8a5.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\b3\b33cda1f9ac0ad7419bbe04d9cc4c8a5.info
+      projectPath: Library\metadata\b3\b33cda1f9ac0ad7419bbe04d9cc4c8a5.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\b3\b3cdabf2f1e76854d8aab5930305d70d
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\b3\b3cdabf2f1e76854d8aab5930305d70d
+      projectPath: Library\metadata\b3\b3cdabf2f1e76854d8aab5930305d70d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\b5\b57629d89799e004182564256307b0cc
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\b5\b57629d89799e004182564256307b0cc
+      projectPath: Library\metadata\b5\b57629d89799e004182564256307b0cc
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\b6\b65aa392762f2014299ba8fbc21b938a
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\b6\b65aa392762f2014299ba8fbc21b938a
+      projectPath: Library\metadata\b6\b65aa392762f2014299ba8fbc21b938a
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\b7\b759d61544e231c41bc88530b1d94ee8
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\b7\b759d61544e231c41bc88530b1d94ee8
+      projectPath: Library\metadata\b7\b759d61544e231c41bc88530b1d94ee8
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\b7\b7cabea05434bb9479aee1e121b0d103
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\b7\b7cabea05434bb9479aee1e121b0d103
+      projectPath: Library\metadata\b7\b7cabea05434bb9479aee1e121b0d103
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\b8\b8046f5b741868b458cdb9b358311fa1
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\b8\b8046f5b741868b458cdb9b358311fa1
+      projectPath: Library\metadata\b8\b8046f5b741868b458cdb9b358311fa1
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\b8\b86b117346968ac4d9cc63e4385becb7
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\b8\b86b117346968ac4d9cc63e4385becb7
+      projectPath: Library\metadata\b8\b86b117346968ac4d9cc63e4385becb7
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\b8\b8c5993172f27e4419d7d4ed5ef77840
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\b8\b8c5993172f27e4419d7d4ed5ef77840
+      projectPath: Library\metadata\b8\b8c5993172f27e4419d7d4ed5ef77840
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\b8\b8f7402084fe2cf4d884952adeac1114
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\b8\b8f7402084fe2cf4d884952adeac1114
+      projectPath: Library\metadata\b8\b8f7402084fe2cf4d884952adeac1114
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\b9\b9d7bb79ed0c2854a8a5ed7decc3e44f
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\b9\b9d7bb79ed0c2854a8a5ed7decc3e44f
+      projectPath: Library\metadata\b9\b9d7bb79ed0c2854a8a5ed7decc3e44f
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ba\bac7c2833e8031244969f967a9ed6c8b
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\ba\bac7c2833e8031244969f967a9ed6c8b
+      projectPath: Library\metadata\ba\bac7c2833e8031244969f967a9ed6c8b
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ba\bae197be297529d4fa735fbe7c91828d
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\ba\bae197be297529d4fa735fbe7c91828d
+      projectPath: Library\metadata\ba\bae197be297529d4fa735fbe7c91828d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\bc\bc9aa6d5a7945f34882c442e9e201537
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\bc\bc9aa6d5a7945f34882c442e9e201537
+      projectPath: Library\metadata\bc\bc9aa6d5a7945f34882c442e9e201537
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\bd\bd3ffb9a97575a44a82f9ca086813154
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\bd\bd3ffb9a97575a44a82f9ca086813154
+      projectPath: Library\metadata\bd\bd3ffb9a97575a44a82f9ca086813154
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\bd\bdb4f6935641b574b984da8dc27cab45
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\bd\bdb4f6935641b574b984da8dc27cab45
+      projectPath: Library\metadata\bd\bdb4f6935641b574b984da8dc27cab45
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\be\be6c5f3ddd065dd43afcc1bcbd63b95c
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\be\be6c5f3ddd065dd43afcc1bcbd63b95c
+      projectPath: Library\metadata\be\be6c5f3ddd065dd43afcc1bcbd63b95c
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\be\bee384ad5b4d1a843a018082e7db53cd
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\be\bee384ad5b4d1a843a018082e7db53cd
+      projectPath: Library\metadata\be\bee384ad5b4d1a843a018082e7db53cd
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\c1\c16c54fe03afb5740bcc0a2a295cb79d
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\c1\c16c54fe03afb5740bcc0a2a295cb79d
+      projectPath: Library\metadata\c1\c16c54fe03afb5740bcc0a2a295cb79d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\c1\c1bee09c88207064ca42d6ebc274c572
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\c1\c1bee09c88207064ca42d6ebc274c572
+      projectPath: Library\metadata\c1\c1bee09c88207064ca42d6ebc274c572
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\c4\c4095d72f77fbb64ea39b8b3ca246622
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\c4\c4095d72f77fbb64ea39b8b3ca246622
+      projectPath: Library\metadata\c4\c4095d72f77fbb64ea39b8b3ca246622
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\c4\c4095d72f77fbb64ea39b8b3ca246622.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\c4\c4095d72f77fbb64ea39b8b3ca246622.info
+      projectPath: Library\metadata\c4\c4095d72f77fbb64ea39b8b3ca246622.info
+      originalPath: Library\metadata\dc\dc93a56eec41c9c49b4eb787ca35ceb0.info
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\metadata\c4\c459424081436584c8cec10767f9ac38
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\c4\c459424081436584c8cec10767f9ac38
+      projectPath: Library\metadata\c4\c459424081436584c8cec10767f9ac38
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\c5\c545241cf2e56ec4997d7677f01ef43d
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\c5\c545241cf2e56ec4997d7677f01ef43d
+      projectPath: Library\metadata\c5\c545241cf2e56ec4997d7677f01ef43d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\c5\c55f8ee59e712524682edba7c818eb6b
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\c5\c55f8ee59e712524682edba7c818eb6b
+      projectPath: Library\metadata\c5\c55f8ee59e712524682edba7c818eb6b
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\c7\c704458949724de4898aa74204380d07
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\c7\c704458949724de4898aa74204380d07
+      projectPath: Library\metadata\c7\c704458949724de4898aa74204380d07
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\c7\c7137daaeb11e8647bf1ade9b7e9aa97
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\c7\c7137daaeb11e8647bf1ade9b7e9aa97
+      projectPath: Library\metadata\c7\c7137daaeb11e8647bf1ade9b7e9aa97
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\c7\c7e47ae35297a95488555fe429032567
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\c7\c7e47ae35297a95488555fe429032567
+      projectPath: Library\metadata\c7\c7e47ae35297a95488555fe429032567
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ca\cae60a41b37427b48a00027b3e0fc1e6
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\ca\cae60a41b37427b48a00027b3e0fc1e6
+      projectPath: Library\metadata\ca\cae60a41b37427b48a00027b3e0fc1e6
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\cb\cb5418bb8817a8c4096007d67d6fd8ba
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\cb\cb5418bb8817a8c4096007d67d6fd8ba
+      projectPath: Library\metadata\cb\cb5418bb8817a8c4096007d67d6fd8ba
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\cc\cc313cc004395df4a9884390556690a5
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\cc\cc313cc004395df4a9884390556690a5
+      projectPath: Library\metadata\cc\cc313cc004395df4a9884390556690a5
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\cc\cc6f5506f7e1c664a9745a66e050fab5
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\cc\cc6f5506f7e1c664a9745a66e050fab5
+      projectPath: Library\metadata\cc\cc6f5506f7e1c664a9745a66e050fab5
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\cc\cc6f5506f7e1c664a9745a66e050fab5.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\cc\cc6f5506f7e1c664a9745a66e050fab5.info
+      projectPath: Library\metadata\cc\cc6f5506f7e1c664a9745a66e050fab5.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\cc\ccbbef892d435144aa8a0f9fd5ccee51
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\cc\ccbbef892d435144aa8a0f9fd5ccee51
+      projectPath: Library\metadata\cc\ccbbef892d435144aa8a0f9fd5ccee51
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\cc\cce613d1538e76a4785658931c7db093
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\cc\cce613d1538e76a4785658931c7db093
+      projectPath: Library\metadata\cc\cce613d1538e76a4785658931c7db093
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\cf\cf97e54bcd5479a46bdbade48da047cc
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\cf\cf97e54bcd5479a46bdbade48da047cc
+      projectPath: Library\metadata\cf\cf97e54bcd5479a46bdbade48da047cc
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\cf\cfa73a847eeff06448bb50a8ac6a94e0
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\cf\cfa73a847eeff06448bb50a8ac6a94e0
+      projectPath: Library\metadata\cf\cfa73a847eeff06448bb50a8ac6a94e0
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\d0\d0cd29fb1ad218b48b814bc3e6d8ac0e
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\d0\d0cd29fb1ad218b48b814bc3e6d8ac0e
+      projectPath: Library\metadata\d0\d0cd29fb1ad218b48b814bc3e6d8ac0e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\d1\d19b75372f4e44d4fa4b2cffbb54124b
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\d1\d19b75372f4e44d4fa4b2cffbb54124b
+      projectPath: Library\metadata\d1\d19b75372f4e44d4fa4b2cffbb54124b
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\d3\d32377b23cb0c8b46a545d7014fff425
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\d3\d32377b23cb0c8b46a545d7014fff425
+      projectPath: Library\metadata\d3\d32377b23cb0c8b46a545d7014fff425
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\d3\d36a7c7a1ed377c4b8008e53032d7dcf
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\d3\d36a7c7a1ed377c4b8008e53032d7dcf
+      projectPath: Library\metadata\d3\d36a7c7a1ed377c4b8008e53032d7dcf
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\d4\d40a0edbdcdcf9747a420f3bbe0f18db
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\d4\d40a0edbdcdcf9747a420f3bbe0f18db
+      projectPath: Library\metadata\d4\d40a0edbdcdcf9747a420f3bbe0f18db
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\d5\d528c8c98d269ca44a06cd9624a03945
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\d5\d528c8c98d269ca44a06cd9624a03945
+      projectPath: Library\metadata\d5\d528c8c98d269ca44a06cd9624a03945
+      originalPath: Library\metadata\0e\0e8f184e2f878f2458129cdfab4fdbd6
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\metadata\d5\d528c8c98d269ca44a06cd9624a03945.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\d5\d528c8c98d269ca44a06cd9624a03945.info
+      projectPath: Library\metadata\d5\d528c8c98d269ca44a06cd9624a03945.info
+      originalPath: Library\metadata\0e\0e8f184e2f878f2458129cdfab4fdbd6.info
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\metadata\d5\d5952b29970e2144780a7cd7b621f821
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\d5\d5952b29970e2144780a7cd7b621f821
+      projectPath: Library\metadata\d5\d5952b29970e2144780a7cd7b621f821
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\d5\d5952b29970e2144780a7cd7b621f821.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\d5\d5952b29970e2144780a7cd7b621f821.info
+      projectPath: Library\metadata\d5\d5952b29970e2144780a7cd7b621f821.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\d6\d63dd1a776d383248a21ec2a8a6e7868
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\d6\d63dd1a776d383248a21ec2a8a6e7868
+      projectPath: Library\metadata\d6\d63dd1a776d383248a21ec2a8a6e7868
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\d7\d7b5b883d3aae8d479647d5ae6182974
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\d7\d7b5b883d3aae8d479647d5ae6182974
+      projectPath: Library\metadata\d7\d7b5b883d3aae8d479647d5ae6182974
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\d8\d850db319a63d2546932ff76fe55a498
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\d8\d850db319a63d2546932ff76fe55a498
+      projectPath: Library\metadata\d8\d850db319a63d2546932ff76fe55a498
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\da\dab656c79e1985c40b31faebcda44442
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\da\dab656c79e1985c40b31faebcda44442
+      projectPath: Library\metadata\da\dab656c79e1985c40b31faebcda44442
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\da\dab656c79e1985c40b31faebcda44442.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\da\dab656c79e1985c40b31faebcda44442.info
+      projectPath: Library\metadata\da\dab656c79e1985c40b31faebcda44442.info
+      originalPath: Library\metadata\2a\2aaada8a8257b1c4ea4a03180c627f53.info
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Library\metadata\db\db34f310723c62440a05d3e69f262a70
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\db\db34f310723c62440a05d3e69f262a70
+      projectPath: Library\metadata\db\db34f310723c62440a05d3e69f262a70
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\db\db434dd2bee4da24d88706f3b9ae15f5
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\db\db434dd2bee4da24d88706f3b9ae15f5
+      projectPath: Library\metadata\db\db434dd2bee4da24d88706f3b9ae15f5
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\dc\dc93a56eec41c9c49b4eb787ca35ceb0
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\dc\dc93a56eec41c9c49b4eb787ca35ceb0
+      projectPath: Library\metadata\dc\dc93a56eec41c9c49b4eb787ca35ceb0
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\metadata\dc\dcc63292bf8cfd543b11bfdebe99cd02
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\dc\dcc63292bf8cfd543b11bfdebe99cd02
+      projectPath: Library\metadata\dc\dcc63292bf8cfd543b11bfdebe99cd02
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\de\de9eb5e2046ffc9448f07e495c436506
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\de\de9eb5e2046ffc9448f07e495c436506
+      projectPath: Library\metadata\de\de9eb5e2046ffc9448f07e495c436506
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\de\dec586c160776104da4d9a4e472662bc
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\de\dec586c160776104da4d9a4e472662bc
+      projectPath: Library\metadata\de\dec586c160776104da4d9a4e472662bc
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\df\df8df80bb65e9ec4280229a9921c4f3c
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\df\df8df80bb65e9ec4280229a9921c4f3c
+      projectPath: Library\metadata\df\df8df80bb65e9ec4280229a9921c4f3c
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\df\dfd084fea478f3148b7de3d83bab1d8c
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\df\dfd084fea478f3148b7de3d83bab1d8c
+      projectPath: Library\metadata\df\dfd084fea478f3148b7de3d83bab1d8c
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\e0\e091bb444874ef244b1ba4a813fc1e34
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\e0\e091bb444874ef244b1ba4a813fc1e34
+      projectPath: Library\metadata\e0\e091bb444874ef244b1ba4a813fc1e34
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\e1\e177382a693dea644acd34e3e7a3feb3
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\e1\e177382a693dea644acd34e3e7a3feb3
+      projectPath: Library\metadata\e1\e177382a693dea644acd34e3e7a3feb3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\e1\e177382a693dea644acd34e3e7a3feb3.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\e1\e177382a693dea644acd34e3e7a3feb3.info
+      projectPath: Library\metadata\e1\e177382a693dea644acd34e3e7a3feb3.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\e1\e1a3bd001331f2049913323736d02a48
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\e1\e1a3bd001331f2049913323736d02a48
+      projectPath: Library\metadata\e1\e1a3bd001331f2049913323736d02a48
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\e2\e210c8bf2e9c6514d90a1bd77586af1f
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\e2\e210c8bf2e9c6514d90a1bd77586af1f
+      projectPath: Library\metadata\e2\e210c8bf2e9c6514d90a1bd77586af1f
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\e3\e3b30a07279380449983c910e8b699f8
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\e3\e3b30a07279380449983c910e8b699f8
+      projectPath: Library\metadata\e3\e3b30a07279380449983c910e8b699f8
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\e7\e763a90581e2d8143bc9a0e384ce6f0f
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\e7\e763a90581e2d8143bc9a0e384ce6f0f
+      projectPath: Library\metadata\e7\e763a90581e2d8143bc9a0e384ce6f0f
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\e9\e90cc37a5ccf4a44dbecc5b7172ec512
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\e9\e90cc37a5ccf4a44dbecc5b7172ec512
+      projectPath: Library\metadata\e9\e90cc37a5ccf4a44dbecc5b7172ec512
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\e9\e9745f6a32442194c8dc5a43e9ab86f9
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\e9\e9745f6a32442194c8dc5a43e9ab86f9
+      projectPath: Library\metadata\e9\e9745f6a32442194c8dc5a43e9ab86f9
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\e9\e9745f6a32442194c8dc5a43e9ab86f9.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\e9\e9745f6a32442194c8dc5a43e9ab86f9.info
+      projectPath: Library\metadata\e9\e9745f6a32442194c8dc5a43e9ab86f9.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ea\ea7e55ba5de304f4496c0a6f9114405c
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\ea\ea7e55ba5de304f4496c0a6f9114405c
+      projectPath: Library\metadata\ea\ea7e55ba5de304f4496c0a6f9114405c
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ea\ea998292f45ea494d9e100f5f6362f91
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\ea\ea998292f45ea494d9e100f5f6362f91
+      projectPath: Library\metadata\ea\ea998292f45ea494d9e100f5f6362f91
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ec\ec817e5e5781e0a4983a1dc8875d1974
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\ec\ec817e5e5781e0a4983a1dc8875d1974
+      projectPath: Library\metadata\ec\ec817e5e5781e0a4983a1dc8875d1974
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ec\ece36bb2bc4128d42911bbc757a56860
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\ec\ece36bb2bc4128d42911bbc757a56860
+      projectPath: Library\metadata\ec\ece36bb2bc4128d42911bbc757a56860
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ef\ef97f39912c138b4cabdccedfb24093b
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\ef\ef97f39912c138b4cabdccedfb24093b
+      projectPath: Library\metadata\ef\ef97f39912c138b4cabdccedfb24093b
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ef\efad3ddb7270ac241b9b1357ec5ee2f2
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\ef\efad3ddb7270ac241b9b1357ec5ee2f2
+      projectPath: Library\metadata\ef\efad3ddb7270ac241b9b1357ec5ee2f2
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ef\efcf753a96a07b24dbe5f23a8ad5963d
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\ef\efcf753a96a07b24dbe5f23a8ad5963d
+      projectPath: Library\metadata\ef\efcf753a96a07b24dbe5f23a8ad5963d
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\f4\f4f988528bbbb0846a4cb50efb4587a5
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\f4\f4f988528bbbb0846a4cb50efb4587a5
+      projectPath: Library\metadata\f4\f4f988528bbbb0846a4cb50efb4587a5
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\f5\f525580684527b147b70cf94aaa70dbc
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\f5\f525580684527b147b70cf94aaa70dbc
+      projectPath: Library\metadata\f5\f525580684527b147b70cf94aaa70dbc
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\f5\f5a0cc9645f0e2d4fb816156dcf3f4dd
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\f5\f5a0cc9645f0e2d4fb816156dcf3f4dd
+      projectPath: Library\metadata\f5\f5a0cc9645f0e2d4fb816156dcf3f4dd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\f5\f5a0cc9645f0e2d4fb816156dcf3f4dd.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\f5\f5a0cc9645f0e2d4fb816156dcf3f4dd.info
+      projectPath: Library\metadata\f5\f5a0cc9645f0e2d4fb816156dcf3f4dd.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\f6\f601c0d674119f74db9c15166b3a58c4
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\f6\f601c0d674119f74db9c15166b3a58c4
+      projectPath: Library\metadata\f6\f601c0d674119f74db9c15166b3a58c4
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\f6\f68c7f7359094f045930a108c444e7a4
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\f6\f68c7f7359094f045930a108c444e7a4
+      projectPath: Library\metadata\f6\f68c7f7359094f045930a108c444e7a4
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\f6\f6d64d8648793944dbadfd71f0f4b0a1
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\f6\f6d64d8648793944dbadfd71f0f4b0a1
+      projectPath: Library\metadata\f6\f6d64d8648793944dbadfd71f0f4b0a1
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\f8\f817a38900380be47942905e17e7d39b
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\f8\f817a38900380be47942905e17e7d39b
+      projectPath: Library\metadata\f8\f817a38900380be47942905e17e7d39b
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\f8\f8730045d7da0f84cb11c0d868899577
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\f8\f8730045d7da0f84cb11c0d868899577
+      projectPath: Library\metadata\f8\f8730045d7da0f84cb11c0d868899577
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\f8\f8ed4321a98682942b9980996131cf26
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\f8\f8ed4321a98682942b9980996131cf26
+      projectPath: Library\metadata\f8\f8ed4321a98682942b9980996131cf26
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\f9\f9bd02a3a916be64c9b47b1305149423
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\f9\f9bd02a3a916be64c9b47b1305149423
+      projectPath: Library\metadata\f9\f9bd02a3a916be64c9b47b1305149423
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\f9\f9bd02a3a916be64c9b47b1305149423.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\f9\f9bd02a3a916be64c9b47b1305149423.info
+      projectPath: Library\metadata\f9\f9bd02a3a916be64c9b47b1305149423.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\fd\fd419bef7a36af8459a810bc72573105
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\fd\fd419bef7a36af8459a810bc72573105
+      projectPath: Library\metadata\fd\fd419bef7a36af8459a810bc72573105
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\fd\fd419bef7a36af8459a810bc72573105.info
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\fd\fd419bef7a36af8459a810bc72573105.info
+      projectPath: Library\metadata\fd\fd419bef7a36af8459a810bc72573105.info
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\fd\fd6ede1d2f47ab146b2ec0a3969a37cc
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\fd\fd6ede1d2f47ab146b2ec0a3969a37cc
+      projectPath: Library\metadata\fd\fd6ede1d2f47ab146b2ec0a3969a37cc
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\fd\fdd19c82588da3e498a0c98951efa6c4
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\fd\fdd19c82588da3e498a0c98951efa6c4
+      projectPath: Library\metadata\fd\fdd19c82588da3e498a0c98951efa6c4
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\fe\fe87c0e1cc204ed48ad3b37840f39efc
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\fe\fe87c0e1cc204ed48ad3b37840f39efc
+      projectPath: Library\metadata\fe\fe87c0e1cc204ed48ad3b37840f39efc
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ff\ff97302ee78d6ad478b433ec557ee303
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\ff\ff97302ee78d6ad478b433ec557ee303
+      projectPath: Library\metadata\ff\ff97302ee78d6ad478b433ec557ee303
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ff\ffc6271f08270b64ca0aae9c49235d81
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\ff\ffc6271f08270b64ca0aae9c49235d81
+      projectPath: Library\metadata\ff\ffc6271f08270b64ca0aae9c49235d81
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\ff\ffcbe86028d681144b703991885c535a
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\ff\ffcbe86028d681144b703991885c535a
+      projectPath: Library\metadata\ff\ffcbe86028d681144b703991885c535a
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Logs\Packages-Update.log
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Logs\Packages-Update.log
+      projectPath: Logs\Packages-Update.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages\manifest.json
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Packages\manifest.json
+      projectPath: Packages\manifest.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 91254f0f48677996840a1d96d03bac950015301d
     mergeA: 
     mergeB: 

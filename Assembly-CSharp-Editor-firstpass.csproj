@@ -81,11 +81,17 @@
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/LocalSource/School/Term 2/Topdown-Polygonal-Shooter/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/LocalSource/School/Term 2/Topdown-Polygonal-Shooter/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>C:/LocalSource/School/Term 2/Topdown-Polygonal-Shooter/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>C:/LocalSource/School/Term 2/Topdown-Polygonal-Shooter/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>C:/LocalSource/School/Term 2/Topdown-Polygonal-Shooter/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>C:/LocalSource/School/Term 2/Topdown-Polygonal-Shooter/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
@@ -101,12 +107,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>C:/LocalSource/School/Term 2/Topdown-Polygonal-Shooter/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:/LocalSource/School/Term 2/Topdown-Polygonal-Shooter/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/LocalSource/School/Term 2/Topdown-Polygonal-Shooter/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/LocalSource/School/Term 2/Topdown-Polygonal-Shooter/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
