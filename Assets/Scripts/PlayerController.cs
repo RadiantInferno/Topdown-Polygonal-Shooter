@@ -138,7 +138,7 @@ public class PlayerController : MonoBehaviour
             Vector2 playerDifference = transform.position - other.transform.position;
             playerDifference = playerDifference.normalized * playerForce;
             rb.AddForce(playerDifference, ForceMode2D.Impulse);
-            StartCoroutine(KnockbackCo(rb, "Player"));
+            StartCoroutine(KnockbackCo(rb, "player"));
 
             //Makes it so the player goes invincible for a little bit if hit by enemy
             if (invincibilityCounter == 0)
