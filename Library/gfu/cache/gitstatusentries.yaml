@@ -13,436 +13,492 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-07-05T19:14:30.967+10:00
-  initializedAtString: 2019-07-05T17:46:34.472+10:00
+  lastUpdatedAtString: 2019-08-20T13:20:03.831+10:00
+  initializedAtString: 2019-08-20T13:18:48.452+10:00
   entries:
-  - path: .vs\Topdown Polygon Shooter\v15\.suo
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\.vs\Topdown
-      Polygon Shooter\v15\.suo
-    projectPath: .vs\Topdown Polygon Shooter\v15\.suo
+  - path: .vs\Topdown-Polygonal-Shooter\v15\.suo
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\.vs\Topdown-Polygonal-Shooter\v15\.suo
+    projectPath: .vs\Topdown-Polygonal-Shooter\v15\.suo
     originalPath: 
-    status: 3
-    staged: 0
-  - path: .vs\Topdown Polygon Shooter\v15\Server\sqlite3\storage.ide
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\.vs\Topdown
-      Polygon Shooter\v15\Server\sqlite3\storage.ide
-    projectPath: .vs\Topdown Polygon Shooter\v15\Server\sqlite3\storage.ide
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: .vs\Topdown-Polygonal-Shooter\v15\Server\sqlite3\storage.ide-shm
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\.vs\Topdown-Polygonal-Shooter\v15\Server\sqlite3\storage.ide-shm
+    projectPath: .vs\Topdown-Polygonal-Shooter\v15\Server\sqlite3\storage.ide-shm
     originalPath: 
-    status: 3
-    staged: 0
-  - path: .vs\Topdown Polygon Shooter\v15\Server\sqlite3\storage.ide-shm
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\.vs\Topdown
-      Polygon Shooter\v15\Server\sqlite3\storage.ide-shm
-    projectPath: .vs\Topdown Polygon Shooter\v15\Server\sqlite3\storage.ide-shm
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: .vs\Topdown-Polygonal-Shooter\v15\Server\sqlite3\storage.ide-wal
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\.vs\Topdown-Polygonal-Shooter\v15\Server\sqlite3\storage.ide-wal
+    projectPath: .vs\Topdown-Polygonal-Shooter\v15\Server\sqlite3\storage.ide-wal
     originalPath: 
-    status: 3
-    staged: 0
-  - path: .vs\Topdown Polygon Shooter\v15\Server\sqlite3\storage.ide-wal
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\.vs\Topdown
-      Polygon Shooter\v15\Server\sqlite3\storage.ide-wal
-    projectPath: .vs\Topdown Polygon Shooter\v15\Server\sqlite3\storage.ide-wal
-    originalPath: 
-    status: 3
-    staged: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assembly-CSharp.csproj
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Assembly-CSharp.csproj
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Assembly-CSharp.csproj
     projectPath: Assembly-CSharp.csproj
     originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Prefabs.meta
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Assets\Prefabs.meta
-    projectPath: Assets\Prefabs.meta
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Prefabs\Enemy.prefab
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Assets\Prefabs\Enemy.prefab
-    projectPath: Assets\Prefabs\Enemy.prefab
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Prefabs\Enemy.prefab.meta
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Assets\Prefabs\Enemy.prefab.meta
-    projectPath: Assets\Prefabs\Enemy.prefab.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Scenes\SampleScene.unity
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Assets\Scenes\SampleScene.unity
-    projectPath: Assets\Scenes\SampleScene.unity
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Scripts\EnemyController.cs
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Assets\Scripts\EnemyController.cs
-    projectPath: Assets\Scripts\EnemyController.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Scripts\EnemyController.cs.meta
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Assets\Scripts\EnemyController.cs.meta
-    projectPath: Assets\Scripts\EnemyController.cs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Scripts\GameController.cs
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Assets\Scripts\GameController.cs
-    projectPath: Assets\Scripts\GameController.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Scripts\GameController.cs.meta
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Assets\Scripts\GameController.cs.meta
-    projectPath: Assets\Scripts\GameController.cs.meta
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Scripts\PlayerController.cs
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Assets\Scripts\PlayerController.cs
-    projectPath: Assets\Scripts\PlayerController.cs
-    originalPath: 
-    status: 3
-    staged: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\assetDatabase3
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\assetDatabase3
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\assetDatabase3
     projectPath: Library\assetDatabase3
     originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\CurrentLayout.dwlt
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\CurrentLayout.dwlt
-    projectPath: Library\CurrentLayout.dwlt
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\Collab\CollabSnapshot_3ddd2522-2843-4e6e-9dc0-166f7fc399e9.txt
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\Collab\CollabSnapshot_3ddd2522-2843-4e6e-9dc0-166f7fc399e9.txt
+    projectPath: Library\Collab\CollabSnapshot_3ddd2522-2843-4e6e-9dc0-166f7fc399e9.txt
     originalPath: 
-    status: 3
-    staged: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\EditorInstance.json
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\EditorInstance.json
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
     originalPath: 
-    status: 1
-    staged: 0
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\gfu\cache\branches.yaml
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\gfu\cache\branches.yaml
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\gfu\cache\branches.yaml
     projectPath: Library\gfu\cache\branches.yaml
     originalPath: 
-    status: 3
-    staged: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\gitlocks.yaml
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\gfu\cache\gitlocks.yaml
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
     originalPath: 
-    status: 3
-    staged: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\gitlog.yaml
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\gfu\cache\gitlog.yaml
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\gfu\cache\gitlog.yaml
     projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
-    status: 3
-    staged: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\gitstatusentries.yaml
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\gfu\cache\gitstatusentries.yaml
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\gfu\cache\gitstatusentries.yaml
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
-    status: 3
-    staged: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\gittrackingstatus.yaml
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\gfu\cache\gittrackingstatus.yaml
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
-    status: 3
-    staged: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\repoinfo.yaml
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\gfu\cache\repoinfo.yaml
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\00\00000000000000009000000000000000
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\00\00000000000000009000000000000000
+    projectPath: Library\metadata\00\00000000000000009000000000000000
     originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\25\25ba64c12c6aa6640ae406b027eeabb2
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\metadata\25\25ba64c12c6aa6640ae406b027eeabb2
-    projectPath: Library\metadata\25\25ba64c12c6aa6640ae406b027eeabb2
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\00\0000000000000000a100000000000000
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\00\0000000000000000a100000000000000
+    projectPath: Library\metadata\00\0000000000000000a100000000000000
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\25\25ba64c12c6aa6640ae406b027eeabb2.info
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\metadata\25\25ba64c12c6aa6640ae406b027eeabb2.info
-    projectPath: Library\metadata\25\25ba64c12c6aa6640ae406b027eeabb2.info
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\71\71b11355001648444b41d17fd36c150d
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\71\71b11355001648444b41d17fd36c150d
+    projectPath: Library\metadata\71\71b11355001648444b41d17fd36c150d
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\54\54c56f9bee225784e8f0fb031bcd0f0e
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\metadata\54\54c56f9bee225784e8f0fb031bcd0f0e
-    projectPath: Library\metadata\54\54c56f9bee225784e8f0fb031bcd0f0e
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\71\71b11355001648444b41d17fd36c150d.info
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\71\71b11355001648444b41d17fd36c150d.info
+    projectPath: Library\metadata\71\71b11355001648444b41d17fd36c150d.info
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\54\54c56f9bee225784e8f0fb031bcd0f0e.info
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\metadata\54\54c56f9bee225784e8f0fb031bcd0f0e.info
-    projectPath: Library\metadata\54\54c56f9bee225784e8f0fb031bcd0f0e.info
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\7e\7e7768b969aa41c4d848a1ee4a29b53c
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\7e\7e7768b969aa41c4d848a1ee4a29b53c
+    projectPath: Library\metadata\7e\7e7768b969aa41c4d848a1ee4a29b53c
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\5d\5d91ee1773943e3479e6b4e728b79594
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\metadata\5d\5d91ee1773943e3479e6b4e728b79594
-    projectPath: Library\metadata\5d\5d91ee1773943e3479e6b4e728b79594
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\88\884ddc13ac927d04194177c2fa4a9270
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\88\884ddc13ac927d04194177c2fa4a9270
+    projectPath: Library\metadata\88\884ddc13ac927d04194177c2fa4a9270
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\5d\5d91ee1773943e3479e6b4e728b79594.info
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\metadata\5d\5d91ee1773943e3479e6b4e728b79594.info
-    projectPath: Library\metadata\5d\5d91ee1773943e3479e6b4e728b79594.info
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\be\be6c5f3ddd065dd43afcc1bcbd63b95c
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\be\be6c5f3ddd065dd43afcc1bcbd63b95c
+    projectPath: Library\metadata\be\be6c5f3ddd065dd43afcc1bcbd63b95c
     originalPath: 
-    status: 1
-    staged: 0
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\c1\c1bee09c88207064ca42d6ebc274c572
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\c1\c1bee09c88207064ca42d6ebc274c572
+    projectPath: Library\metadata\c1\c1bee09c88207064ca42d6ebc274c572
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\metadata\c7\c704458949724de4898aa74204380d07
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\metadata\c7\c704458949724de4898aa74204380d07
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\metadata\c7\c704458949724de4898aa74204380d07
     projectPath: Library\metadata\c7\c704458949724de4898aa74204380d07
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\c7\c704458949724de4898aa74204380d07.info
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\metadata\c7\c704458949724de4898aa74204380d07.info
-    projectPath: Library\metadata\c7\c704458949724de4898aa74204380d07.info
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\metadata\e1\e125bc9b1e3799d4faac95fd8856b37e
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\metadata\e1\e125bc9b1e3799d4faac95fd8856b37e
-    projectPath: Library\metadata\e1\e125bc9b1e3799d4faac95fd8856b37e
-    originalPath: 
-    status: 3
-    staged: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Assembly-CSharp.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
     originalPath: 
-    status: 3
-    staged: 0
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\ScriptAssemblies\Assembly-CSharp.pdb
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Assembly-CSharp.pdb
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
     originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\ShaderCache\0\088c11009c19fe061dcae513b92f5062.bin
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\ShaderCache\0\088c11009c19fe061dcae513b92f5062.bin
-    projectPath: Library\ShaderCache\0\088c11009c19fe061dcae513b92f5062.bin
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\2\28cf2e49b086bff60fbe50777e2aef7a.bin
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\ShaderCache\2\28cf2e49b086bff60fbe50777e2aef7a.bin
-    projectPath: Library\ShaderCache\2\28cf2e49b086bff60fbe50777e2aef7a.bin
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.pdb
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\3\30eeb96037f2e92c00d6d070197845bc.bin
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\ShaderCache\3\30eeb96037f2e92c00d6d070197845bc.bin
-    projectPath: Library\ShaderCache\3\30eeb96037f2e92c00d6d070197845bc.bin
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\4\43abe775d6ef4be6ab4e7e3bbe9b68a6.bin
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\ShaderCache\4\43abe775d6ef4be6ab4e7e3bbe9b68a6.bin
-    projectPath: Library\ShaderCache\4\43abe775d6ef4be6ab4e7e3bbe9b68a6.bin
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\e\e31a2f506238fbaa113c957f1afe0c5a.bin
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\ShaderCache\e\e31a2f506238fbaa113c957f1afe0c5a.bin
-    projectPath: Library\ShaderCache\e\e31a2f506238fbaa113c957f1afe0c5a.bin
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.pdb
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.2D.Sprite.Editor.pdb
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\e\ead78ef203386d37394c1a2bb7acc10d.bin
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\ShaderCache\e\ead78ef203386d37394c1a2bb7acc10d.bin
-    projectPath: Library\ShaderCache\e\ead78ef203386d37394c1a2bb7acc10d.bin
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Library\ShaderCache\EditorEncounteredVariants
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\ShaderCache\EditorEncounteredVariants
-    projectPath: Library\ShaderCache\EditorEncounteredVariants
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.pdb
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.pdb
     originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\shadercompiler-UnityShaderCompiler.exe1.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
     originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\shadercompiler-UnityShaderCompiler.exe2.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.pdb
     originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\shadercompiler-UnityShaderCompiler.exe3.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
     originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe4.log
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\shadercompiler-UnityShaderCompiler.exe4.log
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe4.log
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.pdb
     originalPath: 
-    status: 1
-    staged: 0
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Rider.Editor.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Unity.Timeline.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.Timeline.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.Editor.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Unity.Timeline.pdb
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.Timeline.pdb
+    projectPath: Library\ScriptAssemblies\Unity.Timeline.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Unity.VisualStudio.Editor.pdb
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.VisualStudio.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.VisualStudio.Editor.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+    projectPath: Library\ScriptAssemblies\Unity.VSCode.Editor.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEditor.UI.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\UnityEditor.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\UnityEditor.UI.pdb
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\UnityEditor.UI.pdb
+    projectPath: Library\ScriptAssemblies\UnityEditor.UI.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ScriptAssemblies\UnityEngine.UI.dll
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\UnityEngine.UI.dll
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.dll
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ScriptAssemblies\UnityEngine.UI.pdb
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\ScriptAssemblies\UnityEngine.UI.pdb
+    projectPath: Library\ScriptAssemblies\UnityEngine.UI.pdb
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\SpriteAtlasDatabase.asset
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\SpriteAtlasDatabase.asset
+    projectPath: Library\SpriteAtlasDatabase.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\StateCache\Hierarchy\42911b-mainStage.json
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\StateCache\Hierarchy\42911b-mainStage.json
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Library\StateCache\Hierarchy\42911b-mainStage.json
     projectPath: Library\StateCache\Hierarchy\42911b-mainStage.json
     originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\StateCache\SceneView\11f957-mainStage.json
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Library\StateCache\SceneView\11f957-mainStage.json
-    projectPath: Library\StateCache\SceneView\11f957-mainStage.json
-    originalPath: 
-    status: 3
-    staged: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
     projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
     originalPath: 
-    status: 3
-    staged: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
     projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
     originalPath: 
-    status: 3
-    staged: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
     projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
     originalPath: 
-    status: 1
-    staged: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
     projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
     originalPath: 
-    status: 1
-    staged: 0
-  - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
-    originalPath: 
-    status: 1
-    staged: 0
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Temp\__Backupscenes\0.backup
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Temp\__Backupscenes\0.backup
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\__Backupscenes\0.backup
     projectPath: Temp\__Backupscenes\0.backup
     originalPath: 
-    status: 1
-    staged: 0
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\UnityLockfile
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Temp\UnityLockfile
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-0471283edf648ff4c8317ec54d53f20e
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Temp\UnityTempFile-0471283edf648ff4c8317ec54d53f20e
-    projectPath: Temp\UnityTempFile-0471283edf648ff4c8317ec54d53f20e
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-07236bdea41ef764aa5a5a3370b4493b
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-07236bdea41ef764aa5a5a3370b4493b
+    projectPath: Temp\UnityTempFile-07236bdea41ef764aa5a5a3370b4493b
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-0fd45afab57f7a048a7f615080de4007
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Temp\UnityTempFile-0fd45afab57f7a048a7f615080de4007
-    projectPath: Temp\UnityTempFile-0fd45afab57f7a048a7f615080de4007
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-10363b8227f5af641b5ae687ce33c529
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-10363b8227f5af641b5ae687ce33c529
+    projectPath: Temp\UnityTempFile-10363b8227f5af641b5ae687ce33c529
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-35a451fbc964ad343add33b034ef275c
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Temp\UnityTempFile-35a451fbc964ad343add33b034ef275c
-    projectPath: Temp\UnityTempFile-35a451fbc964ad343add33b034ef275c
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-1d74f075c747ae142aac71b699479944
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-1d74f075c747ae142aac71b699479944
+    projectPath: Temp\UnityTempFile-1d74f075c747ae142aac71b699479944
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-45c071a4c851f60459379a9137ad127b
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Temp\UnityTempFile-45c071a4c851f60459379a9137ad127b
-    projectPath: Temp\UnityTempFile-45c071a4c851f60459379a9137ad127b
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-2591af88b8b0aa9459825323686d3214
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-2591af88b8b0aa9459825323686d3214
+    projectPath: Temp\UnityTempFile-2591af88b8b0aa9459825323686d3214
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-64c26d88b1f001c4584fca12583b39d5
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Temp\UnityTempFile-64c26d88b1f001c4584fca12583b39d5
-    projectPath: Temp\UnityTempFile-64c26d88b1f001c4584fca12583b39d5
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-2f62f1e6361b80d41b311f13259adfb2
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-2f62f1e6361b80d41b311f13259adfb2
+    projectPath: Temp\UnityTempFile-2f62f1e6361b80d41b311f13259adfb2
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-766718f7a30981442b8768ce80f45aa6
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Temp\UnityTempFile-766718f7a30981442b8768ce80f45aa6
-    projectPath: Temp\UnityTempFile-766718f7a30981442b8768ce80f45aa6
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-43006ab78c7239a45aa38a10bcb63111
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-43006ab78c7239a45aa38a10bcb63111
+    projectPath: Temp\UnityTempFile-43006ab78c7239a45aa38a10bcb63111
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-786a7b5efad7bf24c8b47a1a7cbe62b4
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Temp\UnityTempFile-786a7b5efad7bf24c8b47a1a7cbe62b4
-    projectPath: Temp\UnityTempFile-786a7b5efad7bf24c8b47a1a7cbe62b4
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-683b294e8d5de1243aee412571bd8101
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-683b294e8d5de1243aee412571bd8101
+    projectPath: Temp\UnityTempFile-683b294e8d5de1243aee412571bd8101
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-97ea7d43c59bb384c95c6aa78cfe875a
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Temp\UnityTempFile-97ea7d43c59bb384c95c6aa78cfe875a
-    projectPath: Temp\UnityTempFile-97ea7d43c59bb384c95c6aa78cfe875a
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-6992acf437402e74a8c1b877c7e3eabd
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-6992acf437402e74a8c1b877c7e3eabd
+    projectPath: Temp\UnityTempFile-6992acf437402e74a8c1b877c7e3eabd
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-9e40a736caae6d742934fed51e9cc87f
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Temp\UnityTempFile-9e40a736caae6d742934fed51e9cc87f
-    projectPath: Temp\UnityTempFile-9e40a736caae6d742934fed51e9cc87f
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-776a7e88ef25c8043b903e473f6f54c2
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-776a7e88ef25c8043b903e473f6f54c2
+    projectPath: Temp\UnityTempFile-776a7e88ef25c8043b903e473f6f54c2
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-b6c99bfc51e55714fb2868c06f827a8b
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Temp\UnityTempFile-b6c99bfc51e55714fb2868c06f827a8b
-    projectPath: Temp\UnityTempFile-b6c99bfc51e55714fb2868c06f827a8b
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-93dcca9b6487e2c46b45cb4ce69c071e
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-93dcca9b6487e2c46b45cb4ce69c071e
+    projectPath: Temp\UnityTempFile-93dcca9b6487e2c46b45cb4ce69c071e
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-ba07e89e6a2c11a48b59ad74bc5eeea7
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Temp\UnityTempFile-ba07e89e6a2c11a48b59ad74bc5eeea7
-    projectPath: Temp\UnityTempFile-ba07e89e6a2c11a48b59ad74bc5eeea7
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-9813871a40432a447992bcb13eec9483
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-9813871a40432a447992bcb13eec9483
+    projectPath: Temp\UnityTempFile-9813871a40432a447992bcb13eec9483
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-e414fba36f2119146aa8d71f8ac673ce
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Temp\UnityTempFile-e414fba36f2119146aa8d71f8ac673ce
-    projectPath: Temp\UnityTempFile-e414fba36f2119146aa8d71f8ac673ce
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-9fd57ff3eb0ca3c4e91b437fe09938d7
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-9fd57ff3eb0ca3c4e91b437fe09938d7
+    projectPath: Temp\UnityTempFile-9fd57ff3eb0ca3c4e91b437fe09938d7
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-eac988c35a0b4e446bbe5f5ef7e42a64
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Temp\UnityTempFile-eac988c35a0b4e446bbe5f5ef7e42a64
-    projectPath: Temp\UnityTempFile-eac988c35a0b4e446bbe5f5ef7e42a64
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-a8aa17877c6bae14889beb26bab947bb
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-a8aa17877c6bae14889beb26bab947bb
+    projectPath: Temp\UnityTempFile-a8aa17877c6bae14889beb26bab947bb
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-ee48a10ec77bf2441b26dfe2cae5c3d9
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Temp\UnityTempFile-ee48a10ec77bf2441b26dfe2cae5c3d9
-    projectPath: Temp\UnityTempFile-ee48a10ec77bf2441b26dfe2cae5c3d9
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-cc592b3cf33d33647bd4fd46e16426da
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-cc592b3cf33d33647bd4fd46e16426da
+    projectPath: Temp\UnityTempFile-cc592b3cf33d33647bd4fd46e16426da
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-f6d7cd055ad8a524883c4b0d1982cc6c
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Temp\UnityTempFile-f6d7cd055ad8a524883c4b0d1982cc6c
-    projectPath: Temp\UnityTempFile-f6d7cd055ad8a524883c4b0d1982cc6c
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-de6e8448f6b281d4694ece79e6b23878
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-de6e8448f6b281d4694ece79e6b23878
+    projectPath: Temp\UnityTempFile-de6e8448f6b281d4694ece79e6b23878
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Temp\UnityTempFile-f6fd210fa66a6e349b7bc73de05f9725
-    fullPath: D:\Todd\Documents\Unity\Topdown Polygon Shooter\Topdown Polygon Shooter\Temp\UnityTempFile-f6fd210fa66a6e349b7bc73de05f9725
-    projectPath: Temp\UnityTempFile-f6fd210fa66a6e349b7bc73de05f9725
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e6c14f0f2b0b04b4591d1ef91021dee0
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-e6c14f0f2b0b04b4591d1ef91021dee0
+    projectPath: Temp\UnityTempFile-e6c14f0f2b0b04b4591d1ef91021dee0
     originalPath: 
-    status: 1
-    staged: 0
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-eeb890f35a5d51a429e64efa128f8904
+    fullPath: C:\LocalSource\School\Term 2\Topdown-Polygonal-Shooter\Temp\UnityTempFile-eeb890f35a5d51a429e64efa128f8904
+    projectPath: Temp\UnityTempFile-eeb890f35a5d51a429e64efa128f8904
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
