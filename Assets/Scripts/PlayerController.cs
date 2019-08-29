@@ -76,7 +76,6 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-
         //Moves the player
         if (canMove) rb.MovePosition(new Vector2(Mathf.Clamp(rb.position.x + moveVelocity.x, playerMinX, playerMaxX), Mathf.Clamp(rb.position.y + moveVelocity.y, playerMinY, playerMaxY)));
 
