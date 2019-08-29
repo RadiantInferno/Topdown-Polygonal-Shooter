@@ -7,6 +7,8 @@ public class EnemyController : MonoBehaviour
 
     public int health;
     public float speed;
+    public int currentHealth = 1;
+    public int maxHealth;
 
     private GameObject player;
     private Rigidbody2D rb;
@@ -31,4 +33,10 @@ public class EnemyController : MonoBehaviour
         //moves the enemy in the direction it is facing
         transform.position += transform.up * speed;
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        currentHealth -= 1;
+    }
+      
 }
