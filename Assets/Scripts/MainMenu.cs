@@ -7,6 +7,12 @@ public class MainMenu : MonoBehaviour
 {
     public string SampleScene;
 
+    public string HowToPlay;
+
+    public string HighScores;
+
+    public string Settings;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,17 +32,17 @@ public class MainMenu : MonoBehaviour
 
     public void HelpBtn()
     {
-        //SceneManager.LoadScene();
+        SceneManager.LoadScene(HowToPlay);
     }
 
     public void ScoreBtn()
     {
-        //SceneManager.LoadScene();
+        SceneManager.LoadScene(HighScores);
     }
 
     public void SettingBtn()
     {
-        //SceneManager.LoadScene();
+        SceneManager.LoadScene(Settings);
     }
 
     public void Exit()
