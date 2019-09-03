@@ -14,14 +14,13 @@ public class PlayerController : MonoBehaviour
     //Variable to store the position of the mouse converted to world space
     private Vector3 mousePosition;
 
-    private Rigidbody2D rb;
+    private Rigidbody2D theRigidBody;
     //The direction in which the player is moving
     private Vector2 moveVelocity;
 
     //Health variables - self explanatory
-    public int maxHealth;
-    public int currentHealth;
-    public Camera cam;
+    private int maxHealth = 6;
+    private int currentHealth;
 
     //Invinciblity after being hit by enemy
     private float invincibilityCounter;
@@ -45,14 +44,15 @@ public class PlayerController : MonoBehaviour
     private bool shaking;
     public float shakeAmount;
 
+    private CameraController theCameraController;
 
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        theRigidBody = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
-        cam = GameObject.FindWithTag("MainCamera").GetComponent<Camera>();
         canMove = true;
+        theCameraController = FindObjectOfType<CameraController>();
     }
 
     // Update is called once per frame
@@ -68,26 +68,23 @@ public class PlayerController : MonoBehaviour
             Vector3 newPos = deathPos + Random.insideUnitSphere * (Time.deltaTime * shakeAmount);
             newPos.z = transform.position.z;
             transform.position = newPos;
-
-            cam.orthographicSize -= 0.05f;
-            cam.transform.position = Vector3.MoveTowards(cam.transform.position, new Vector3(transform.position.x, transform.position.y, cam.transform.position.z), 0.3f);
         }
     }
 
     void FixedUpdate()
     {
-        //Moves the player
-        if (canMove) rb.MovePosition(new Vector2(Mathf.Clamp(rb.position.x + moveVelocity.x, playerMinX, playerMaxX), Mathf.Clamp(rb.position.y + moveVelocity.y, playerMinY, playerMaxY)));
+        //Allows the player to move and then actually moves the player
+        if (canMove)
+        {
+            theRigidBody.MovePosition(new Vector2(Mathf.Clamp(theRigidBody.position.x + moveVelocity.x, playerMinX, playerMaxX), Mathf.Clamp(theRigidBody.position.y + moveVelocity.y, playerMinY, playerMaxY)));
+        }
 
         //Makes the player point towards the mouse cursor
         mousePosition = Input.mousePosition;
         mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
 
         //finds the position of the player relative to the mouse
-        Vector2 mouseDirection = new Vector2(
-            mousePosition.x - transform.position.x,
-            mousePosition.y - transform.position.y
-        );
+        Vector2 mouseDirection = new Vector2(mousePosition.x - transform.position.x, mousePosition.y - transform.position.y);
 
         //rotates the player to face mouse
         transform.up = mouseDirection;
@@ -132,12 +129,12 @@ public class PlayerController : MonoBehaviour
             }
 
             //is the same thing as above for the knockback of the enemies, but this is the knock back of the player
-            rb.isKinematic = false;
+            theRigidBody.isKinematic = false;
             canMove = false;
             Vector2 playerDifference = transform.position - other.transform.position;
             playerDifference = playerDifference.normalized * playerForce;
-            rb.AddForce(playerDifference, ForceMode2D.Impulse);
-            StartCoroutine(KnockbackCo(rb, "Player"));
+            theRigidBody.AddForce(playerDifference, ForceMode2D.Impulse);
+            StartCoroutine(KnockbackCo(theRigidBody, "Player"));
 
             //Makes it so the player goes invincible for a little bit if hit by enemy
             if (invincibilityCounter == 0)
@@ -156,7 +153,10 @@ public class PlayerController : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-            StartCoroutine("DeathSequence");
+            //if()
+           // {
+                StartCoroutine("DeathSequence");
+           // }
         }
     }
 
@@ -181,6 +181,8 @@ public class PlayerController : MonoBehaviour
         canMove = false;
         //stores the position in which the players health =< 0
         deathPos = transform.position;
+        //calls on the camera to make it zoom onto the player as he dies
+        theCameraController.StartCoroutine("CameraZoom");
         //makes shaking true so that the player will shake
         if (shaking == false)
         {
